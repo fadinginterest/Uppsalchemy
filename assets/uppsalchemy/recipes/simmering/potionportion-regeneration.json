@@ -1,0 +1,158 @@
+[
+	{
+		"Ingredients": [
+			{
+				"type": "item",
+				"code": "uppsalchemy:potionportion-base-aged",
+				"quantity": 10
+			},
+			{
+				"type": "block",
+				"code": "game:flower-lilyofthevalley-free",
+				"quantity": 4
+			}
+		],
+		"Simmering": {
+			"meltingPoint": 100,
+			"meltingDuration": 48,
+			"smeltedRatio": 1,
+			"smeltingType": "bake",
+			"smeltedStack": {
+				"type": "item",
+				"code": "uppsalchemy:potionportion-unfinished-regeneration-tier1",
+				"quantity": 10
+			},
+			"requiresContainer": false
+		}
+	},
+	{
+		"Ingredients": [
+			{
+				"type": "item",
+				"code": "uppsalchemy:potionportion-unfinished-regeneration-tier1",
+				"quantity": 10
+			},
+			{
+				"type": "item",
+				"code": "uppsalchemy:infusedmash-lilyofthevalley",
+				"quantity": 1
+			}
+		],
+		"Simmering": {
+			"meltingPoint": 100,
+			"meltingDuration": 48,
+			"smeltedRatio": 1,
+			"smeltingType": "bake",
+			"smeltedStack": {
+				"type": "item",
+				"code": "uppsalchemy:potionportion-unfinished-regeneration-tier2",
+				"quantity": 10
+			},
+			"requiresContainer": false
+		}
+	},
+	{
+		"Ingredients": [
+			{
+				"type": "item",
+				"code": "uppsalchemy:potionportion-unfinished-regeneration-tier2cured",
+				"quantity": 10
+			},
+			{
+				"type": "item",
+				"code": "uppsalchemy:infusedmash-lilyofthevalley",
+				"quantity": 1
+			}
+		],
+		"Simmering": {
+			"meltingPoint": 100,
+			"meltingDuration": 48,
+			"smeltedRatio": 1,
+			"smeltingType": "bake",
+			"smeltedStack": {
+				"type": "item",
+				"code": "uppsalchemy:potionportion-unfinished-regeneration-tier3",
+				"quantity": 10
+			},
+			"requiresContainer": false
+		}
+	},
+	{
+		"Ingredients": [
+			{
+				"type": "item",
+				"code": "uppsalchemy:potionportion-unfinished-regeneration-tier1",
+				"quantity": 10
+			},
+			{
+				"type": "item",
+				"code": "uppsalchemy:tinctureof-whiskey",
+				"quantity": 10
+			}
+		],
+		"Simmering": {
+			"meltingPoint": 100,
+			"meltingDuration": 24,
+			"smeltedRatio": 1,
+			"smeltingType": "bake",
+			"smeltedStack": {
+				"type": "item",
+				"code": "uppsalchemy:potionportion-regeneration-tier1",
+				"quantity": 10
+			},
+			"requiresContainer": false
+		}
+	},
+	{
+		"Ingredients": [
+			{
+				"type": "item",
+				"code": "uppsalchemy:potionportion-unfinished-regeneration-tier2",
+				"quantity": 10
+			},
+			{
+				"type": "item",
+				"code": "uppsalchemy:tinctureof-whiskey",
+				"quantity": 10
+			}
+		],
+		"Simmering": {
+			"meltingPoint": 100,
+			"meltingDuration": 24,
+			"smeltedRatio": 1,
+			"smeltingType": "bake",
+			"smeltedStack": {
+				"type": "item",
+				"code": "uppsalchemy:potionportion-regeneration-tier2",
+				"quantity": 10
+			},
+			"requiresContainer": false
+		}
+	},
+	{
+		"Ingredients": [
+			{
+				"type": "item",
+				"code": "uppsalchemy:potionportion-unfinished-regeneration-tier3",
+				"quantity": 10
+			},
+			{
+				"type": "item",
+				"code": "uppsalchemy:tinctureof-whiskey",
+				"quantity": 10
+			}
+		],
+		"Simmering": {
+			"meltingPoint": 100,
+			"meltingDuration": 24,
+			"smeltedRatio": 1,
+			"smeltingType": "bake",
+			"smeltedStack": {
+				"type": "item",
+				"code": "uppsalchemy:potionportion-regeneration-tier3",
+				"quantity": 10
+			},
+			"requiresContainer": false
+		}
+	}
+]

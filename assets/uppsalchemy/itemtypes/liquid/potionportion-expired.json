@@ -1,0 +1,66 @@
+{
+	code: "potionportion-expired",
+	class: "ItemLiquidPortion",
+	matterState: "liquid",
+
+	attributes: {
+		waterTightContainerProps: {
+			containable: true,
+			itemsPerLitre: 100,
+			texture: { base: "uppsalchemy:item/resource/fadedgray" },
+			allowSpill: true,
+			whenSpilled: {
+				action: "DropContents",
+				stack: { type: "item", code: "uppsalchemy:potionportion-expired" }
+			},
+			nutritionPropsPerLitre: {
+				satiety: 0,
+				health: 0,
+				foodcategory: "NoNutrition"
+			}
+		},
+
+		alchemyEffect: {
+			kind: "damage",
+			magnitude: -3,
+			durationSeconds: 30,
+			ticks: 5
+		},
+
+		handbook: {
+			ignoreCreativeInvStacks: true,
+			extraSections: [
+				{
+					title: "uppsalchemy:item-handbooktitle-potionportion-expired",
+					text: "uppsalchemy:item-handbooktext-potionportion-expired"
+				}
+			]
+		}
+	},
+
+	transitionableProps: [{
+		type: "Perish",
+		freshHours: { avg: 24 },
+		transitionHours: { avg: 48 },
+		transitionedStack: { type: "item", code: "game:vinegarportion" },
+		transitionRatio: 1
+	}],
+
+	shape: { base: "game:item/liquid" },
+	texture: { "base": "uppsalchemy:item/resource/fadedgray" },
+
+	creativeinventoryStacks: [ { tabs: ["general", "uppsalchemy"], stacks: [ { type: "block", code: "aculinaryartillery:bottle-glass-quartz-fired", attributes: { ucontents: [ { type: "item", code: "uppsalchemy:potionportion-expired", makefull: true } ] } } ] } ],
+
+	maxstacksize: 5000,
+	materialDensity: 1000,
+
+	guiTransform: {
+		translation: { x: 0, y: 1, z: 0 },
+		rotation: { x: 123, y: -33, z: -13 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 1.4
+	},
+	tpHandTransform: {
+		translation: { x: -1.5, y: -1, z: -1.4 }
+	}
+}

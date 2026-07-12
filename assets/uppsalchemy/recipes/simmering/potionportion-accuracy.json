@@ -1,0 +1,158 @@
+[
+	{
+		"Ingredients": [
+			{
+				"type": "item",
+				"code": "uppsalchemy:potionportion-base-aged",
+				"quantity": 10
+			},
+			{
+				"type": "block",
+				"code": "game:flower-bluebell-free",
+				"quantity": 4
+			}
+		],
+		"Simmering": {
+			"meltingPoint": 100,
+			"meltingDuration": 48,
+			"smeltedRatio": 1,
+			"smeltingType": "bake",
+			"smeltedStack": {
+				"type": "item",
+				"code": "uppsalchemy:potionportion-unfinished-accuracy-tier1",
+				"quantity": 10
+			},
+			"requiresContainer": false
+		}
+	},
+	{
+		"Ingredients": [
+			{
+				"type": "item",
+				"code": "uppsalchemy:potionportion-unfinished-accuracy-tier1",
+				"quantity": 10
+			},
+			{
+				"type": "item",
+				"code": "uppsalchemy:infusedmash-bluebell",
+				"quantity": 1
+			}
+		],
+		"Simmering": {
+			"meltingPoint": 100,
+			"meltingDuration": 48,
+			"smeltedRatio": 1,
+			"smeltingType": "bake",
+			"smeltedStack": {
+				"type": "item",
+				"code": "uppsalchemy:potionportion-unfinished-accuracy-tier2",
+				"quantity": 10
+			},
+			"requiresContainer": false
+		}
+	},
+	{
+		"Ingredients": [
+			{
+				"type": "item",
+				"code": "uppsalchemy:potionportion-unfinished-accuracy-tier2cured",
+				"quantity": 10
+			},
+			{
+				"type": "item",
+				"code": "uppsalchemy:infusedmash-bluebell",
+				"quantity": 1
+			}
+		],
+		"Simmering": {
+			"meltingPoint": 100,
+			"meltingDuration": 48,
+			"smeltedRatio": 1,
+			"smeltingType": "bake",
+			"smeltedStack": {
+				"type": "item",
+				"code": "uppsalchemy:potionportion-unfinished-accuracy-tier3",
+				"quantity": 10
+			},
+			"requiresContainer": false
+		}
+	},
+	{
+		"Ingredients": [
+			{
+				"type": "item",
+				"code": "uppsalchemy:potionportion-unfinished-accuracy-tier1",
+				"quantity": 10
+			},
+			{
+				"type": "item",
+				"code": "uppsalchemy:tinctureof-carrot",
+				"quantity": 10
+			}
+		],
+		"Simmering": {
+			"meltingPoint": 100,
+			"meltingDuration": 24,
+			"smeltedRatio": 1,
+			"smeltingType": "bake",
+			"smeltedStack": {
+				"type": "item",
+				"code": "uppsalchemy:potionportion-accuracy-tier1",
+				"quantity": 10
+			},
+			"requiresContainer": false
+		}
+	},
+	{
+		"Ingredients": [
+			{
+				"type": "item",
+				"code": "uppsalchemy:potionportion-unfinished-accuracy-tier2",
+				"quantity": 10
+			},
+			{
+				"type": "item",
+				"code": "uppsalchemy:tinctureof-carrot",
+				"quantity": 10
+			}
+		],
+		"Simmering": {
+			"meltingPoint": 100,
+			"meltingDuration": 24,
+			"smeltedRatio": 1,
+			"smeltingType": "bake",
+			"smeltedStack": {
+				"type": "item",
+				"code": "uppsalchemy:potionportion-accuracy-tier2",
+				"quantity": 10
+			},
+			"requiresContainer": false
+		}
+	},
+	{
+		"Ingredients": [
+			{
+				"type": "item",
+				"code": "uppsalchemy:potionportion-unfinished-accuracy-tier3",
+				"quantity": 10
+			},
+			{
+				"type": "item",
+				"code": "uppsalchemy:tinctureof-carrot",
+				"quantity": 10
+			}
+		],
+		"Simmering": {
+			"meltingPoint": 100,
+			"meltingDuration": 24,
+			"smeltedRatio": 1,
+			"smeltingType": "bake",
+			"smeltedStack": {
+				"type": "item",
+				"code": "uppsalchemy:potionportion-accuracy-tier3",
+				"quantity": 10
+			},
+			"requiresContainer": false
+		}
+	}
+]

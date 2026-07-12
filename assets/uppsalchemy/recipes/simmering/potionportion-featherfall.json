@@ -1,0 +1,158 @@
+[
+	{
+		"Ingredients": [
+			{
+				"type": "item",
+				"code": "uppsalchemy:potionportion-base-aged",
+				"quantity": 10
+			},
+			{
+				"type": "block",
+				"code": "game:flower-catmint-free",
+				"quantity": 4
+			}
+		],
+		"Simmering": {
+			"meltingPoint": 100,
+			"meltingDuration": 48,
+			"smeltedRatio": 1,
+			"smeltingType": "bake",
+			"smeltedStack": {
+				"type": "item",
+				"code": "uppsalchemy:potionportion-unfinished-featherfall-tier1",
+				"quantity": 10
+			},
+			"requiresContainer": false
+		}
+	},
+	{
+		"Ingredients": [
+			{
+				"type": "item",
+				"code": "uppsalchemy:potionportion-unfinished-featherfall-tier1",
+				"quantity": 10
+			},
+			{
+				"type": "item",
+				"code": "uppsalchemy:infusedmash-catmint",
+				"quantity": 1
+			}
+		],
+		"Simmering": {
+			"meltingPoint": 100,
+			"meltingDuration": 48,
+			"smeltedRatio": 1,
+			"smeltingType": "bake",
+			"smeltedStack": {
+				"type": "item",
+				"code": "uppsalchemy:potionportion-unfinished-featherfall-tier2",
+				"quantity": 10
+			},
+			"requiresContainer": false
+		}
+	},
+	{
+		"Ingredients": [
+			{
+				"type": "item",
+				"code": "uppsalchemy:potionportion-unfinished-featherfall-tier2cured",
+				"quantity": 10
+			},
+			{
+				"type": "item",
+				"code": "uppsalchemy:infusedmash-catmint",
+				"quantity": 1
+			}
+		],
+		"Simmering": {
+			"meltingPoint": 100,
+			"meltingDuration": 48,
+			"smeltedRatio": 1,
+			"smeltingType": "bake",
+			"smeltedStack": {
+				"type": "item",
+				"code": "uppsalchemy:potionportion-unfinished-featherfall-tier3",
+				"quantity": 10
+			},
+			"requiresContainer": false
+		}
+	},
+	{
+		"Ingredients": [
+			{
+				"type": "item",
+				"code": "uppsalchemy:potionportion-unfinished-featherfall-tier1",
+				"quantity": 10
+			},
+			{
+				"type": "item",
+				"code": "uppsalchemy:tinctureof-birdfeathers",
+				"quantity": 10
+			}
+		],
+		"Simmering": {
+			"meltingPoint": 100,
+			"meltingDuration": 24,
+			"smeltedRatio": 1,
+			"smeltingType": "bake",
+			"smeltedStack": {
+				"type": "item",
+				"code": "uppsalchemy:potionportion-featherfall-tier1",
+				"quantity": 10
+			},
+			"requiresContainer": false
+		}
+	},
+	{
+		"Ingredients": [
+			{
+				"type": "item",
+				"code": "uppsalchemy:potionportion-unfinished-featherfall-tier2",
+				"quantity": 10
+			},
+			{
+				"type": "item",
+				"code": "uppsalchemy:tinctureof-birdfeathers",
+				"quantity": 10
+			}
+		],
+		"Simmering": {
+			"meltingPoint": 100,
+			"meltingDuration": 24,
+			"smeltedRatio": 1,
+			"smeltingType": "bake",
+			"smeltedStack": {
+				"type": "item",
+				"code": "uppsalchemy:potionportion-featherfall-tier2",
+				"quantity": 10
+			},
+			"requiresContainer": false
+		}
+	},
+	{
+		"Ingredients": [
+			{
+				"type": "item",
+				"code": "uppsalchemy:potionportion-unfinished-featherfall-tier3",
+				"quantity": 10
+			},
+			{
+				"type": "item",
+				"code": "uppsalchemy:tinctureof-birdfeathers",
+				"quantity": 10
+			}
+		],
+		"Simmering": {
+			"meltingPoint": 100,
+			"meltingDuration": 24,
+			"smeltedRatio": 1,
+			"smeltingType": "bake",
+			"smeltedStack": {
+				"type": "item",
+				"code": "uppsalchemy:potionportion-featherfall-tier3",
+				"quantity": 10
+			},
+			"requiresContainer": false
+		}
+	}
+]

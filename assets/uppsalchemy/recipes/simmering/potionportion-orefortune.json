@@ -1,0 +1,158 @@
+[
+	{
+		"Ingredients": [
+			{
+				"type": "item",
+				"code": "uppsalchemy:potionportion-base-aged",
+				"quantity": 10
+			},
+			{
+				"type": "block",
+				"code": "game:flower-lupine-blue-free",
+				"quantity": 4
+			}
+		],
+		"Simmering": {
+			"meltingPoint": 100,
+			"meltingDuration": 48,
+			"smeltedRatio": 1,
+			"smeltingType": "bake",
+			"smeltedStack": {
+				"type": "item",
+				"code": "uppsalchemy:potionportion-unfinished-orefortune-tier1",
+				"quantity": 10
+			},
+			"requiresContainer": false
+		}
+	},
+	{
+		"Ingredients": [
+			{
+				"type": "item",
+				"code": "uppsalchemy:potionportion-unfinished-orefortune-tier1",
+				"quantity": 10
+			},
+			{
+				"type": "item",
+				"code": "uppsalchemy:infusedmash-lupineblue",
+				"quantity": 1
+			}
+		],
+		"Simmering": {
+			"meltingPoint": 100,
+			"meltingDuration": 48,
+			"smeltedRatio": 1,
+			"smeltingType": "bake",
+			"smeltedStack": {
+				"type": "item",
+				"code": "uppsalchemy:potionportion-unfinished-orefortune-tier2",
+				"quantity": 10
+			},
+			"requiresContainer": false
+		}
+	},
+	{
+		"Ingredients": [
+			{
+				"type": "item",
+				"code": "uppsalchemy:potionportion-unfinished-orefortune-tier2cured",
+				"quantity": 10
+			},
+			{
+				"type": "item",
+				"code": "uppsalchemy:infusedmash-lupineblue",
+				"quantity": 1
+			}
+		],
+		"Simmering": {
+			"meltingPoint": 100,
+			"meltingDuration": 48,
+			"smeltedRatio": 1,
+			"smeltingType": "bake",
+			"smeltedStack": {
+				"type": "item",
+				"code": "uppsalchemy:potionportion-unfinished-orefortune-tier3",
+				"quantity": 10
+			},
+			"requiresContainer": false
+		}
+	},
+	{
+		"Ingredients": [
+			{
+				"type": "item",
+				"code": "uppsalchemy:potionportion-unfinished-orefortune-tier1",
+				"quantity": 10
+			},
+			{
+				"type": "item",
+				"code": "uppsalchemy:tinctureof-gold",
+				"quantity": 10
+			}
+		],
+		"Simmering": {
+			"meltingPoint": 100,
+			"meltingDuration": 24,
+			"smeltedRatio": 1,
+			"smeltingType": "bake",
+			"smeltedStack": {
+				"type": "item",
+				"code": "uppsalchemy:potionportion-orefortune-tier1",
+				"quantity": 10
+			},
+			"requiresContainer": false
+		}
+	},
+	{
+		"Ingredients": [
+			{
+				"type": "item",
+				"code": "uppsalchemy:potionportion-unfinished-orefortune-tier2",
+				"quantity": 10
+			},
+			{
+				"type": "item",
+				"code": "uppsalchemy:tinctureof-gold",
+				"quantity": 10
+			}
+		],
+		"Simmering": {
+			"meltingPoint": 100,
+			"meltingDuration": 24,
+			"smeltedRatio": 1,
+			"smeltingType": "bake",
+			"smeltedStack": {
+				"type": "item",
+				"code": "uppsalchemy:potionportion-orefortune-tier2",
+				"quantity": 10
+			},
+			"requiresContainer": false
+		}
+	},
+	{
+		"Ingredients": [
+			{
+				"type": "item",
+				"code": "uppsalchemy:potionportion-unfinished-orefortune-tier3",
+				"quantity": 10
+			},
+			{
+				"type": "item",
+				"code": "uppsalchemy:tinctureof-gold",
+				"quantity": 10
+			}
+		],
+		"Simmering": {
+			"meltingPoint": 100,
+			"meltingDuration": 24,
+			"smeltedRatio": 1,
+			"smeltingType": "bake",
+			"smeltedStack": {
+				"type": "item",
+				"code": "uppsalchemy:potionportion-orefortune-tier3",
+				"quantity": 10
+			},
+			"requiresContainer": false
+		}
+	}
+]

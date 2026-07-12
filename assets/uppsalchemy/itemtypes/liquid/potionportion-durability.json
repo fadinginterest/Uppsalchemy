@@ -1,0 +1,157 @@
+{
+	"code": "potionportion-durability",
+	"class": "ItemLiquidPortion",
+	"matterState": "liquid",
+	"variantgroups": [
+		{
+			"code": "tier",
+			"states": [
+				"tier1",
+				"tier2",
+				"tier3"
+			]
+		}
+	],
+	"attributes": {
+		"waterTightContainerProps": {
+			"containable": true,
+			"itemsPerLitre": 100,
+			"texture": {
+				"base": "uppsalchemy:item/resource/slateblue"
+			},
+			"allowSpill": false,
+			"whenSpilled": {
+				"action": "DropContents",
+				"stack": {
+					"type": "item",
+					"code": "uppsalchemy:potionportion-durability-{tier}"
+				}
+			},
+			"nutritionPropsPerLitre": {
+				"satiety": 0,
+				"health": 0,
+				"foodcategory": "NoNutrition"
+			}
+		},
+		"handbook": {
+			"groupBy": [
+				"potionportion-durability-*"
+			],
+			"ignoreCreativeInvStacks": true,
+			"extraSections": [
+				{
+					"title": "uppsalchemy:item-handbooktitle-potionportion-durability",
+					"text": "uppsalchemy:item-handbooktext-potionportion-durability"
+				}
+			]
+		}
+	},
+	"attributesByType": {
+		"*-tier1": {
+			"alchemyEffect": {
+				"kind": "stat",
+				"durationSeconds": 60,
+				"magnitude": 0.8,
+				"configKey": "Durability",
+				"type": "armorDurabilityLoss"
+			}
+		},
+		"*-tier2": {
+			"alchemyEffect": {
+				"kind": "stat",
+				"durationSeconds": 120,
+				"magnitude": 0.6,
+				"configKey": "Durability",
+				"type": "armorDurabilityLoss"
+			}
+		},
+		"*-tier3": {
+			"alchemyEffect": {
+				"kind": "stat",
+				"durationSeconds": 240,
+				"magnitude": 0.4,
+				"configKey": "Durability",
+				"type": "armorDurabilityLoss"
+			}
+		}
+	},
+	"transitionablePropsByType": {
+		"*-tier1": [{
+			"type": "Perish",
+			"freshHours": { "avg": 720 },
+			"transitionHours": { "avg": 1 },
+			"transitionedStack": { "type": "item", "code": "uppsalchemy:potionportion-expired" },
+			"transitionRatio": 1
+		}],
+		"*-tier2": [{
+			"type": "Perish",
+			"freshHours": { "avg": 2160 },
+			"transitionHours": { "avg": 1 },
+			"transitionedStack": { "type": "item", "code": "uppsalchemy:potionportion-expired" },
+			"transitionRatio": 1
+		}],
+		"*-tier3": [{
+			"type": "Perish",
+			"freshHours": { "avg": 4380 },
+			"transitionHours": { "avg": 1 },
+			"transitionedStack": { "type": "item", "code": "uppsalchemy:potionportion-expired" },
+			"transitionRatio": 1
+		}]
+	},
+	"shape": {
+		"base": "game:item/liquid"
+	},
+	"texture": {
+		"base": "uppsalchemy:item/resource/slateblue"
+	},
+	"creativeinventoryStacks": [
+		{
+			"tabs": [
+				"general",
+				"uppsalchemy"
+			],
+			"stacks": [
+				{
+					"type": "block",
+					"code": "aculinaryartillery:bottle-glass-quartz-fired",
+					"attributes": {
+						"ucontents": [
+							{
+								"type": "item",
+								"code": "uppsalchemy:potionportion-durability-{tier}",
+								"makefull": true
+							}
+						]
+					}
+				}
+			]
+		}
+	],
+	"maxstacksize": 5000,
+	"materialDensity": 1000,
+	"guiTransform": {
+		"translation": {
+			"x": 0,
+			"y": 1,
+			"z": 0
+		},
+		"rotation": {
+			"x": 123,
+			"y": -33,
+			"z": -13
+		},
+		"origin": {
+			"x": 0.5,
+			"y": 0,
+			"z": 0.5
+		},
+		"scale": 1.4
+	},
+	"tpHandTransform": {
+		"translation": {
+			"x": -1.5,
+			"y": -1,
+			"z": -1.4
+		}
+	}
+}

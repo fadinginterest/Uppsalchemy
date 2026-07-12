@@ -1,0 +1,17 @@
+# Build outputs
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Mod packaging output
+Releases/
+
+# Other stuff
+documentation/
+ReferenceLibs/
+
+

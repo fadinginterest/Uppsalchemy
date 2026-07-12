@@ -1,0 +1,848 @@
+[
+	{
+		"ingredients": [
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "uppsalchemy:potionportion-base-aged",
+						"quantity": 100
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "block",
+						"code": "game:seaweed-top",
+						"quantity": 4
+					}
+				]
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "uppsalchemy:infusedmash-seaweed",
+			"stackSize": 1
+		}
+	},
+	{
+		"ingredients": [
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "uppsalchemy:potionportion-base-aged",
+						"quantity": 100
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "block",
+						"code": "game:flower-catmint-free",
+						"quantity": 4
+					}
+				]
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "uppsalchemy:infusedmash-catmint",
+			"stackSize": 1
+		}
+	},
+	{
+		"ingredients": [
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "uppsalchemy:potionportion-base-aged",
+						"quantity": 100
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "block",
+						"code": "game:flower-goldenpoppy-free",
+						"quantity": 4
+					}
+				]
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "uppsalchemy:infusedmash-goldenpoppy",
+			"stackSize": 1
+		}
+	},
+	{
+		"ingredients": [
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "uppsalchemy:potionportion-base-aged",
+						"quantity": 100
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "block",
+						"code": "game:flower-woad-free",
+						"quantity": 4
+					}
+				]
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "uppsalchemy:infusedmash-woad",
+			"stackSize": 1
+		}
+	},
+	{
+		"ingredients": [
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "uppsalchemy:potionportion-base-aged",
+						"quantity": 100
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "block",
+						"code": "game:flower-forgetmenot-free",
+						"quantity": 4
+					}
+				]
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "uppsalchemy:infusedmash-forgetmenot",
+			"stackSize": 1
+		}
+	},
+	{
+		"ingredients": [
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "uppsalchemy:potionportion-base-aged",
+						"quantity": 100
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "block",
+						"code": "game:flower-lilyofthevalley-free",
+						"quantity": 4
+					}
+				]
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "uppsalchemy:infusedmash-lilyofthevalley",
+			"stackSize": 1
+		}
+	},
+	{
+		"ingredients": [
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "uppsalchemy:potionportion-base-aged",
+						"quantity": 100
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "block",
+						"code": "game:flower-wilddaisy-free",
+						"quantity": 4
+					}
+				]
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "uppsalchemy:infusedmash-wilddaisy",
+			"stackSize": 1
+		}
+	},
+	{
+		"ingredients": [
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "uppsalchemy:potionportion-base-aged",
+						"quantity": 100
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "block",
+						"code": "game:flower-redtopgrass-free",
+						"quantity": 4
+					}
+				]
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "uppsalchemy:infusedmash-redtopgrass",
+			"stackSize": 1
+		}
+	},
+	{
+		"ingredients": [
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "uppsalchemy:potionportion-base-aged",
+						"quantity": 100
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "block",
+						"code": "game:flower-heather-free",
+						"quantity": 4
+					}
+				]
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "uppsalchemy:infusedmash-heather",
+			"stackSize": 1
+		}
+	},
+	{
+		"ingredients": [
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "uppsalchemy:potionportion-base-aged",
+						"quantity": 100
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "block",
+						"code": "game:flower-cornflower-free",
+						"quantity": 4
+					}
+				]
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "uppsalchemy:infusedmash-cornflower",
+			"stackSize": 1
+		}
+	},
+	{
+		"ingredients": [
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "uppsalchemy:potionportion-base-aged",
+						"quantity": 100
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "block",
+						"code": "game:flower-orangemallow-free",
+						"quantity": 4
+					}
+				]
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "uppsalchemy:infusedmash-orangemallow",
+			"stackSize": 1
+		}
+	},
+	{
+		"ingredients": [
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "uppsalchemy:potionportion-base-aged",
+						"quantity": 100
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "block",
+						"code": "game:flower-orangemallow-free",
+						"quantity": 4
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "block",
+						"code": "game:flower-heather-free",
+						"quantity": 4
+					}
+				]
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "uppsalchemy:infusedmash-orangeheather",
+			"stackSize": 1
+		}
+	},
+	{
+		"ingredients": [
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "uppsalchemy:potionportion-base-aged",
+						"quantity": 100
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "block",
+						"code": "game:flower-lupine-blue-free",
+						"quantity": 4
+					}
+				]
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "uppsalchemy:infusedmash-lupineblue",
+			"stackSize": 1
+		}
+	},
+	{
+		"ingredients": [
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "uppsalchemy:potionportion-base-aged",
+						"quantity": 100
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "block",
+						"code": "game:flower-bluebell-free",
+						"quantity": 4
+					}
+				]
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "uppsalchemy:infusedmash-bluebell",
+			"stackSize": 1
+		}
+	},
+	{
+		"ingredients": [
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "uppsalchemy:potionportion-base-aged",
+						"quantity": 100
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "block",
+						"code": "game:flower-cowparsley-free",
+						"quantity": 4
+					}
+				]
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "uppsalchemy:infusedmash-cowparsley",
+			"stackSize": 1
+		}
+	},
+	{
+		"ingredients": [
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "uppsalchemy:potionportion-base-aged",
+						"quantity": 100
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "block",
+						"code": "game:flower-mugwort-free",
+						"quantity": 4
+					}
+				]
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "uppsalchemy:infusedmash-mugwort",
+			"stackSize": 1
+		}
+	},
+	{
+		"ingredients": [
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "uppsalchemy:potionportion-base-aged",
+						"quantity": 100
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "block",
+						"code": "game:flower-daffodil-free",
+						"quantity": 4
+					}
+				]
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "uppsalchemy:infusedmash-daffodil",
+			"stackSize": 1
+		}
+	},
+	{
+		"ingredients": [
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "uppsalchemy:potionportion-base-aged",
+						"quantity": 100
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "block",
+						"code": "game:flower-lupine-red-free",
+						"quantity": 4
+					}
+				]
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "uppsalchemy:infusedmash-lupinered",
+			"stackSize": 1
+		}
+	},
+	{
+		"ingredients": [
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "uppsalchemy:potionportion-base-aged",
+						"quantity": 100
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "block",
+						"code": "game:flower-lupine-purple-free",
+						"quantity": 4
+					}
+				]
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "uppsalchemy:infusedmash-lupinepurple",
+			"stackSize": 1
+		}
+	},
+	{
+		"ingredients": [
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "uppsalchemy:potionportion-base-aged",
+						"quantity": 100
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "block",
+						"code": "game:flower-lupine-orange-free",
+						"quantity": 4
+					}
+				]
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "uppsalchemy:infusedmash-lupineorange",
+			"stackSize": 1
+		}
+	},
+	{
+		"ingredients": [
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "uppsalchemy:potionportion-base-aged",
+						"quantity": 100
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "block",
+						"code": "game:flower-lupine-white-free",
+						"quantity": 4
+					}
+				]
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "uppsalchemy:infusedmash-lupinewhite",
+			"stackSize": 1
+		}
+	},
+	{
+		"ingredients": [
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "uppsalchemy:potionportion-base-aged",
+						"quantity": 100
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "block",
+						"code": "game:flower-goldenpoppy-free",
+						"quantity": 4
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "block",
+						"code": "game:seaweed-top",
+						"quantity": 4
+					}
+				]
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "uppsalchemy:infusedmash-poppyweed",
+			"stackSize": 1
+		}
+	},
+	{
+		"ingredients": [
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "uppsalchemy:potionportion-base-aged",
+						"quantity": 100
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "block",
+						"code": "game:flower-catmint-free",
+						"quantity": 4
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "block",
+						"code": "game:flower-orangemallow-free",
+						"quantity": 4
+					}
+				]
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "uppsalchemy:infusedmash-catmallow",
+			"stackSize": 1
+		}
+	},
+	{
+		"ingredients": [
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "uppsalchemy:potionportion-base-aged",
+						"quantity": 100
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "block",
+						"code": "game:flower-woad-free",
+						"quantity": 4
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "block",
+						"code": "game:flower-redtopgrass-free",
+						"quantity": 4
+					}
+				]
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "uppsalchemy:infusedmash-redwoad",
+			"stackSize": 1
+		}
+	},
+	{
+		"ingredients": [
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "uppsalchemy:potionportion-base-aged",
+						"quantity": 100
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "block",
+						"code": "game:flower-redtopgrass-free",
+						"quantity": 4
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "block",
+						"code": "game:seaweed-top",
+						"quantity": 4
+					}
+				]
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "uppsalchemy:infusedmash-redtopweed",
+			"stackSize": 1
+		}
+	},
+	{
+		"ingredients": [
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "uppsalchemy:potionportion-base-aged",
+						"quantity": 100
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "block",
+						"code": "game:flower-redtopgrass-free",
+						"quantity": 4
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "block",
+						"code": "game:flower-goldenpoppy-free",
+						"quantity": 4
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "block",
+						"code": "game:seaweed-top",
+						"quantity": 4
+					}
+				]
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "uppsalchemy:infusedmash-tripleweed",
+			"stackSize": 1
+		}
+	},
+	{
+		"ingredients": [
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "uppsalchemy:potionportion-base-aged",
+						"quantity": 100
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "block",
+						"code": "game:flower-woad-free",
+						"quantity": 4
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "block",
+						"code": "game:flower-lilyofthevalley-free",
+						"quantity": 4
+					}
+				]
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "uppsalchemy:infusedmash-woadlily",
+			"stackSize": 1
+		}
+	},	
+	{
+		"ingredients": [
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "uppsalchemy:potionportion-base-aged",
+						"quantity": 100
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "block",
+						"code": "game:flower-woad-free",
+						"quantity": 4
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "block",
+						"code": "game:flower-redtopgrass-free",
+						"quantity": 4
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "block",
+						"code": "game:flower-lilyofthevalley-free",
+						"quantity": 4
+					}
+				]
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "uppsalchemy:infusedmash-redwoadlily",
+			"stackSize": 1
+		}
+	}
+]

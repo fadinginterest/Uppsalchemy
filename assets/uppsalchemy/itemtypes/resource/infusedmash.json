@@ -1,0 +1,291 @@
+{
+	"code": "infusedmash",
+	"class": "Item",
+	"variantgroups": [
+		{
+			"code": "plant",
+			"states": [
+				"bluebell",
+				"catmallow",
+				"catmint",
+				"cornflower",
+				"cowparsley",
+				"daffodil",
+				"orangeheather",
+				"redwoad",
+				"redwoadlily",
+				"forgetmenot",
+				"goldenpoppy",
+				"heather",
+				"lilyofthevalley",
+				"lupineblue",
+				"lupineorange",
+				"lupinepurple",
+				"lupinered",
+				"lupinewhite",
+				"mugwort",
+				"orangemallow",
+				"poppyweed",
+				"redtopgrass",
+				"redtopweed",
+				"seaweed",
+				"tripleweed",
+				"wilddaisy",
+				"woad",
+				"woadlily"
+			]
+		}
+	],
+	"shape": {
+		"base": "uppsalchemy:item/infusedmash"
+	},
+	"texturesByType": {
+		"*-catmint": {
+			"material": {
+				"base": "uppsalchemy:item/resource/yellowgreen"
+			}
+		},
+		"*-forgetmenot": {
+			"material": {
+				"base": "uppsalchemy:item/resource/ultramarineblue"
+			}
+		},
+		"*-goldenpoppy": {
+			"material": {
+				"base": "uppsalchemy:item/resource/honeyamber"
+			}
+		},
+		"*-lilyofthevalley": {
+			"material": {
+				"base": "uppsalchemy:item/resource/chartreuse"
+			}
+		},
+		"*-redtopgrass": {
+			"material": {
+				"base": "uppsalchemy:item/resource/rustbrown"
+			}
+		},
+		"*-seaweed": {
+			"material": {
+				"base": "uppsalchemy:item/resource/brightgreen"
+			}
+		},
+		"*-wilddaisy": {
+			"material": {
+				"base": "uppsalchemy:item/resource/turquoise"
+			}
+		},
+		"*-woad": {
+			"material": {
+				"base": "uppsalchemy:item/resource/goldenyellow"
+			}
+		},
+		"*-heather": {
+			"material": {
+				"base": "uppsalchemy:item/resource/mediumpurple"
+			}
+		},
+		"*-cornflower": {
+			"material": {
+				"base": "uppsalchemy:item/resource/turquoiseteal"
+			}
+		},
+		"*-orangemallow": {
+			"material": {
+				"base": "uppsalchemy:item/resource/creamsicle"
+			}
+		},
+		"*-orangeheather": {
+			"material": {
+				"base": "uppsalchemy:item/resource/blushpink"
+			}
+		},
+		"*-lupineblue": {
+			"material": {
+				"base": "uppsalchemy:item/resource/skyblue"
+			}
+		},
+		"*-bluebell": {
+			"material": {
+				"base": "uppsalchemy:item/resource/shiningblue"
+			}
+		},
+		"*-cowparsley": {
+			"material": {
+				"base": "uppsalchemy:item/resource/meadowwhite"
+			}
+		},
+		"*-mugwort": {
+			"material": {
+				"base": "uppsalchemy:item/resource/palegreen"
+			}
+		},
+		"*-daffodil": {
+			"material": {
+				"base": "uppsalchemy:item/resource/yellowdaffodil"
+			}
+		},
+		"*-lupinered": {
+			"material": {
+				"base": "uppsalchemy:item/resource/crimsonred"
+			}
+		},
+		"*-lupinepurple": {
+			"material": {
+				"base": "uppsalchemy:item/resource/darkindigo"
+			}
+		},
+		"*-lupineorange": {
+			"material": {
+				"base": "uppsalchemy:item/resource/tangerineorange"
+			}
+		},
+		"*-lupinewhite": {
+			"material": {
+				"base": "uppsalchemy:item/resource/roselily"
+			}
+		},
+		"*-poppyweed": {
+			"material": {
+				"base": "uppsalchemy:item/resource/paleaquamarine"
+			}
+		},
+		"*-catmallow": {
+			"material": {
+				"base": "uppsalchemy:item/resource/lightlime"
+			}
+		},
+		"*-redwoad": {
+			"material": {
+				"base": "uppsalchemy:item/resource/dustyrose"
+			}
+		},
+		"*-redwoadlily": {
+			"material": {
+				"base": "uppsalchemy:item/resource/forestgreen"
+			}
+		},
+		"*-redtopweed": {
+			"material": {
+				"base": "uppsalchemy:item/resource/darkteal"
+			}
+		},
+		"*-tripleweed": {
+			"material": {
+				"base": "uppsalchemy:item/resource/grassgreen"
+			}
+		},
+		"*-woadlily": {
+			"material": {
+				"base": "uppsalchemy:item/resource/greenmulch"
+			}
+		}
+	},
+	"attributes": {
+		"handbook": {
+			"groupBy": [
+				"infusedmash-*"
+			],
+			"ignoreCreativeInvStacks": true,
+			"extraSections": [
+				{
+					"title": "uppsalchemy:item-handbooktitle-infusedmash-*",
+					"text": "uppsalchemy:item-handbooktext-infusedmash-*"
+				}
+			]
+		},
+		"displaycaseable": true,
+		"shelvable": true,
+		"displayable": {
+			"shelf": {
+				"size": {
+					"width": 5,
+					"height": 2,
+					"length": 2
+				}
+			}
+		},
+		"onDisplayTransform": {
+			"origin": {
+				"x": 0.5,
+				"y": 0.06,
+				"z": 0.5
+			},
+			"rotation": {
+				"x": 180,
+				"y": 0,
+				"z": 0
+			},
+			"scale": 0.58
+		}
+	},
+	"creativeinventoryStacks": [
+		{
+			"tabs": [
+				"general",
+				"uppsalchemy"
+			],
+			"stacks": [
+				{
+					"type": "item",
+					"code": "uppsalchemy:infusedmash-{plant}"
+				}
+			]
+		}
+	],
+	"maxstacksize": 64,
+	"guiTransform": {
+		"translation": {
+			"x": 3,
+			"y": 2,
+			"z": 0
+		},
+		"rotation": {
+			"x": 330,
+			"y": -38,
+			"z": 0
+		},
+		"origin": {
+			"x": 0.5,
+			"y": 0.1,
+			"z": 0.5
+		},
+		"scale": 2.66
+	},
+	"tpHandTransform": {
+		"translation": {
+			"x": -0.93,
+			"y": -0.19,
+			"z": -0.77
+		},
+		"rotation": {
+			"x": -48,
+			"y": -180,
+			"z": 23
+		},
+		"origin": {
+			"x": 0.5,
+			"y": 0.12,
+			"z": 0.5
+		},
+		"scale": 0.6
+	},
+	"groundTransform": {
+		"translation": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"rotation": {
+			"x": 180,
+			"y": 0,
+			"z": 0
+		},
+		"origin": {
+			"x": 0.5,
+			"y": 0.2,
+			"z": 0.5
+		},
+		"scale": 4.0
+	}
+}

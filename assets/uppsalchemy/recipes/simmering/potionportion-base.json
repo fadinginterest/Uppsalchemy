@@ -1,0 +1,16 @@
+[
+	{
+		"Ingredients": [
+			{ "type": "item", "code": "game:honeyportion", "quantity": 200 },
+			{ "type": "block", "code": "game:flower-westerngorse-free", "quantity": 4 }
+		],
+		"Simmering": {
+			"meltingPoint": 100,
+			"meltingDuration": 68,
+			"smeltedRatio": 1,
+			"smeltingType": "bake",
+			"smeltedStack": { "type": "item", "code": "uppsalchemy:potionportion-base", "quantity": 200 },
+			"requiresContainer": false
+		}
+	}
+]

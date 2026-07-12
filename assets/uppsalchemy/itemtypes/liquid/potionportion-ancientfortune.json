@@ -1,0 +1,157 @@
+{
+	"code": "potionportion-ancientfortune",
+	"class": "ItemLiquidPortion",
+	"matterState": "liquid",
+	"variantgroups": [
+		{
+			"code": "tier",
+			"states": [
+				"tier1",
+				"tier2",
+				"tier3"
+			]
+		}
+	],
+	"attributes": {
+		"waterTightContainerProps": {
+			"containable": true,
+			"itemsPerLitre": 100,
+			"texture": {
+				"base": "uppsalchemy:item/resource/deeppurple"
+			},
+			"allowSpill": false,
+			"whenSpilled": {
+				"action": "DropContents",
+				"stack": {
+					"type": "item",
+					"code": "uppsalchemy:potionportion-ancientfortune-{tier}"
+				}
+			},
+			"nutritionPropsPerLitre": {
+				"satiety": 0,
+				"health": 0,
+				"foodcategory": "NoNutrition"
+			}
+		},
+		"handbook": {
+			"groupBy": [
+				"potionportion-ancientfortune-*"
+			],
+			"ignoreCreativeInvStacks": true,
+			"extraSections": [
+				{
+					"title": "uppsalchemy:item-handbooktitle-potionportion-ancientfortune",
+					"text": "uppsalchemy:item-handbooktext-potionportion-ancientfortune"
+				}
+			]
+		}
+	},
+	"attributesByType": {
+		"*-tier1": {
+			"alchemyEffect": {
+				"kind": "stat",
+				"durationSeconds": 60,
+				"magnitude": 1.3,
+				"configKey": "AncientFortune",
+				"type": "wholeVesselLootChance"
+			}
+		},
+		"*-tier2": {
+			"alchemyEffect": {
+				"kind": "stat",
+				"durationSeconds": 120,
+				"magnitude": 1.5,
+				"configKey": "AncientFortune",
+				"type": "wholeVesselLootChance"
+			}
+		},
+		"*-tier3": {
+			"alchemyEffect": {
+				"kind": "stat",
+				"durationSeconds": 240,
+				"magnitude": 2.0,
+				"configKey": "AncientFortune",
+				"type": "wholeVesselLootChance"
+			}
+		}
+	},
+	"transitionablePropsByType": {
+		"*-tier1": [{
+			"type": "Perish",
+			"freshHours": { "avg": 720 },
+			"transitionHours": { "avg": 1 },
+			"transitionedStack": { "type": "item", "code": "uppsalchemy:potionportion-expired" },
+			"transitionRatio": 1
+		}],
+		"*-tier2": [{
+			"type": "Perish",
+			"freshHours": { "avg": 2160 },
+			"transitionHours": { "avg": 1 },
+			"transitionedStack": { "type": "item", "code": "uppsalchemy:potionportion-expired" },
+			"transitionRatio": 1
+		}],
+		"*-tier3": [{
+			"type": "Perish",
+			"freshHours": { "avg": 4380 },
+			"transitionHours": { "avg": 1 },
+			"transitionedStack": { "type": "item", "code": "uppsalchemy:potionportion-expired" },
+			"transitionRatio": 1
+		}]
+	},
+	"shape": {
+		"base": "game:item/liquid"
+	},
+	"texture": {
+		"base": "uppsalchemy:item/resource/deeppurple"
+	},
+	"creativeinventoryStacks": [
+		{
+			"tabs": [
+				"general",
+				"uppsalchemy"
+			],
+			"stacks": [
+				{
+					"type": "block",
+					"code": "aculinaryartillery:bottle-glass-quartz-fired",
+					"attributes": {
+						"ucontents": [
+							{
+								"type": "item",
+								"code": "uppsalchemy:potionportion-ancientfortune-{tier}",
+								"makefull": true
+							}
+						]
+					}
+				}
+			]
+		}
+	],
+	"maxstacksize": 5000,
+	"materialDensity": 1000,
+	"guiTransform": {
+		"translation": {
+			"x": 0,
+			"y": 1,
+			"z": 0
+		},
+		"rotation": {
+			"x": 123,
+			"y": -33,
+			"z": -13
+		},
+		"origin": {
+			"x": 0.5,
+			"y": 0,
+			"z": 0.5
+		},
+		"scale": 1.4
+	},
+	"tpHandTransform": {
+		"translation": {
+			"x": -1.5,
+			"y": -1,
+			"z": -1.4
+		}
+	}
+}

@@ -1,0 +1,280 @@
+{
+	"code": "tinctureof",
+	"class": "ItemLiquidPortion",
+	"matterState": "liquid",
+	"variantgroups": [
+		{
+			"code": "ore",
+			"states": [
+				"sphalerite",
+				"galena",
+				"whiskey",
+				"tin",
+				"brandy",
+				"bauxite",
+				"candlewax",
+				"birdfeathers",
+				"distilledmead",
+				"iron",
+				"activatedperidotite",
+				"ironzinc",
+				"cuprowhiskey",
+				"peridotite",
+				"carrot",
+				"olivine",
+				"activatedcopper",
+				"gold",
+				"nickel",
+				"zinc",
+				"bismuth",
+				"silver",
+				"tinwax",
+				"birdpellet",
+				"distilledbauxite",
+				"tinbrandy",
+				"tinbrandywax",
+				"whiskeybauxite",
+				"cruelpatience",
+				"welcomepunishment"
+			]
+		}
+	],
+	"attributes": {
+		"waterTightContainerProps": {
+			"containable": true,
+			"itemsPerLitre": 100,
+			"texturebytype": {
+				"*-activatedcopper": {
+					"base": "uppsalchemy:item/resource/lightgreen"
+				},
+				"*-activatedperidotite": {
+					"base": "uppsalchemy:item/resource/mintgreen"
+				},
+				"*-bauxite": {
+					"base": "uppsalchemy:item/resource/burntorange"
+				},
+				"*-birdfeathers": {
+					"base": "uppsalchemy:item/resource/lightskyblue"
+				},
+				"*-birdpellet": {
+					"base": "uppsalchemy:item/resource/fadedgray"
+				},
+				"*-bismuth": {
+					"base": "uppsalchemy:item/resource/tealblue"
+				},
+				"*-brandy": {
+					"base": "uppsalchemy:item/resource/honeyamber"
+				},
+				"*-candlewax": {
+					"base": "uppsalchemy:item/resource/yellowdaffodil"
+				},
+				"*-carrot": {
+					"base": "uppsalchemy:item/resource/rustbrown"
+				},
+				"*-cruelpatience": {
+					"base": "uppsalchemy:item/resource/heartblood"
+				},
+				"*-cuprowhiskey": {
+					"base": "uppsalchemy:item/resource/magenta"
+				},
+				"*-distilledbauxite": {
+					"base": "uppsalchemy:item/resource/dustyrose"
+				},
+				"*-distilledmead": {
+					"base": "uppsalchemy:item/resource/tomatored"
+				},
+				"*-galena": {
+					"base": "uppsalchemy:item/resource/slateblue"
+				},
+				"*-gold": {
+					"base": "uppsalchemy:item/resource/goldenyellow"
+				},
+				"*-iron": {
+					"base": "uppsalchemy:item/resource/crimsonred"
+				},
+				"*-ironzinc": {
+					"base": "uppsalchemy:item/resource/coralpink"
+				},
+				"*-nickel": {
+					"base": "uppsalchemy:item/resource/indigoblue"
+				},
+				"*-olivine": {
+					"base": "uppsalchemy:item/resource/limegreen"
+				},
+				"*-peridotite": {
+					"base": "uppsalchemy:item/resource/greensteel"
+				},
+				"*-silver": {
+					"base": "uppsalchemy:item/resource/sageteal"
+				},
+				"*-sphalerite": {
+					"base": "uppsalchemy:item/resource/skyblue"
+				},
+				"*-tin": {
+					"base": "uppsalchemy:item/resource/agedplum"
+				},
+				"*-tinbrandy": {
+					"base": "uppsalchemy:item/resource/creamsicle"
+				},
+				"*-tinbrandywax": {
+					"base": "uppsalchemy:item/resource/violetpurple"
+				},
+				"*-tinwax": {
+					"base": "uppsalchemy:item/resource/sandyyellow"
+				},
+				"*-welcomepunishment": {
+					"base": "uppsalchemy:item/resource/brightmagenta"
+				},
+				"*-whiskey": {
+					"base": "uppsalchemy:item/resource/tangerineorange"
+				},
+				"*-whiskeybauxite": {
+					"base": "uppsalchemy:item/resource/lavender"
+				},
+				"*-zinc": {
+					"base": "uppsalchemy:item/resource/teal"
+				}
+			},
+			"allowSpill": true,
+			"whenSpilled": {
+				"action": "DropContents",
+				"stack": {
+					"type": "item",
+					"code": "uppsalchemy:tinctureof-{ore}"
+				}
+			}
+		},
+		"handbook": {
+			"groupBy": [
+				"tinctureof-*"
+			]
+		}
+	},
+	"shape": {
+		"base": "game:item/liquid"
+	},
+	"texturebytype": {
+		"*-activatedcopper": {
+			"base": "uppsalchemy:item/resource/lightgreen"
+		},
+		"*-activatedperidotite": {
+			"base": "uppsalchemy:item/resource/mintgreen"
+		},
+		"*-bauxite": {
+			"base": "uppsalchemy:item/resource/burntorange"
+		},
+		"*-birdfeathers": {
+			"base": "uppsalchemy:item/resource/lightskyblue"
+		},
+		"*-birdpellet": {
+			"base": "uppsalchemy:item/resource/fadedgray"
+		},
+		"*-bismuth": {
+			"base": "uppsalchemy:item/resource/tealblue"
+		},
+		"*-brandy": {
+			"base": "uppsalchemy:item/resource/honeyamber"
+		},
+		"*-candlewax": {
+			"base": "uppsalchemy:item/resource/yellowdaffodil"
+		},
+		"*-carrot": {
+			"base": "uppsalchemy:item/resource/rustbrown"
+		},
+		"*-cruelpatience": {
+			"base": "uppsalchemy:item/resource/heartblood"
+		},
+		"*-cuprowhiskey": {
+			"base": "uppsalchemy:item/resource/magenta"
+		},
+		"*-distilledbauxite": {
+			"base": "uppsalchemy:item/resource/dustyrose"
+		},
+		"*-distilledmead": {
+			"base": "uppsalchemy:item/resource/tomatored"
+		},
+		"*-galena": {
+			"base": "uppsalchemy:item/resource/slateblue"
+		},
+		"*-gold": {
+			"base": "uppsalchemy:item/resource/goldenyellow"
+		},
+		"*-iron": {
+			"base": "uppsalchemy:item/resource/crimsonred"
+		},
+		"*-ironzinc": {
+			"base": "uppsalchemy:item/resource/coralpink"
+		},
+		"*-nickel": {
+			"base": "uppsalchemy:item/resource/indigoblue"
+		},
+		"*-olivine": {
+			"base": "uppsalchemy:item/resource/limegreen"
+		},
+		"*-peridotite": {
+			"base": "uppsalchemy:item/resource/greensteel"
+		},
+		"*-silver": {
+			"base": "uppsalchemy:item/resource/sageteal"
+		},
+		"*-sphalerite": {
+			"base": "uppsalchemy:item/resource/skyblue"
+		},
+		"*-tin": {
+			"base": "uppsalchemy:item/resource/agedplum"
+		},
+		"*-tinbrandy": {
+			"base": "uppsalchemy:item/resource/creamsicle"
+		},
+		"*-tinbrandywax": {
+			"base": "uppsalchemy:item/resource/violetpurple"
+		},
+		"*-tinwax": {
+			"base": "uppsalchemy:item/resource/sandyyellow"
+		},
+		"*-welcomepunishment": {
+			"base": "uppsalchemy:item/resource/brightmagenta"
+		},
+		"*-whiskey": {
+			"base": "uppsalchemy:item/resource/tangerineorange"
+		},
+		"*-whiskeybauxite": {
+			"base": "uppsalchemy:item/resource/lavender"
+		},
+		"*-zinc": {
+			"base": "uppsalchemy:item/resource/teal"
+		}
+	},
+	"creativeinventory": {
+		"general": [
+			"*"
+		]
+	},
+	"maxstacksize": 5000,
+	"materialDensity": 1000,
+	"guiTransform": {
+		"translation": {
+			"x": 0,
+			"y": 1,
+			"z": 0
+		},
+		"rotation": {
+			"x": 123,
+			"y": -33,
+			"z": -13
+		},
+		"origin": {
+			"x": 0.5,
+			"y": 0,
+			"z": 0.5
+		},
+		"scale": 1.4
+	},
+	"tpHandTransform": {
+		"translation": {
+			"x": -1.5,
+			"y": -1,
+			"z": -1.4
+		}
+	}
+}

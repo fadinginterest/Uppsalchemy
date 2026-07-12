@@ -1,0 +1,154 @@
+{
+	"code": "potionportion-regeneration",
+	"class": "ItemLiquidPortion",
+	"matterState": "liquid",
+	"variantgroups": [
+		{
+			"code": "tier",
+			"states": [
+				"tier1",
+				"tier2",
+				"tier3"
+			]
+		}
+	],
+	"attributes": {
+		"waterTightContainerProps": {
+			"containable": true,
+			"itemsPerLitre": 100,
+			"texture": {
+				"base": "uppsalchemy:item/resource/emeraldgreen"
+			},
+			"allowSpill": false,
+			"whenSpilled": {
+				"action": "DropContents",
+				"stack": {
+					"type": "item",
+					"code": "uppsalchemy:potionportion-regeneration-{tier}"
+				}
+			},
+			"nutritionPropsPerLitre": {
+				"satiety": 0,
+				"health": 0,
+				"foodcategory": "NoNutrition"
+			}
+		},
+		"handbook": {
+			"groupBy": [
+				"potionportion-regeneration-*"
+			],
+			"ignoreCreativeInvStacks": true,
+			"extraSections": [
+				{
+					"title": "uppsalchemy:item-handbooktitle-potionportion-regeneration",
+					"text": "uppsalchemy:item-handbooktext-potionportion-regeneration"
+				}
+			]
+		}
+	},
+	"attributesByType": {
+		"*-tier1": {
+			"alchemyEffect": {
+				"kind": "regeneration",
+				"durationSeconds": 60,
+				"healPerSecond": 0.2,
+				"configKey": "Regeneration"
+			}
+		},
+		"*-tier2": {
+			"alchemyEffect": {
+				"kind": "regeneration",
+				"durationSeconds": 180,
+				"healPerSecond": 0.5,
+				"configKey": "Regeneration"
+			}
+		},
+		"*-tier3": {
+			"alchemyEffect": {
+				"kind": "regeneration",
+				"durationSeconds": 360,
+				"healPerSecond": 1.5,
+				"configKey": "Regeneration"
+			}
+		}
+	},
+	"transitionablePropsByType": {
+		"*-tier1": [{
+			"type": "Perish",
+			"freshHours": { "avg": 720 },
+			"transitionHours": { "avg": 1 },
+			"transitionedStack": { "type": "item", "code": "uppsalchemy:potionportion-expired" },
+			"transitionRatio": 1
+		}],
+		"*-tier2": [{
+			"type": "Perish",
+			"freshHours": { "avg": 2160 },
+			"transitionHours": { "avg": 1 },
+			"transitionedStack": { "type": "item", "code": "uppsalchemy:potionportion-expired" },
+			"transitionRatio": 1
+		}],
+		"*-tier3": [{
+			"type": "Perish",
+			"freshHours": { "avg": 8760 },
+			"transitionHours": { "avg": 1 },
+			"transitionedStack": { "type": "item", "code": "uppsalchemy:potionportion-expired" },
+			"transitionRatio": 1
+		}]
+	},
+	"shape": {
+		"base": "game:item/liquid"
+	},
+	"texture": {
+		"base": "uppsalchemy:item/resource/emeraldgreen"
+	},
+	"creativeinventoryStacks": [
+		{
+			"tabs": [
+				"general",
+				"uppsalchemy"
+			],
+			"stacks": [
+				{
+					"type": "block",
+					"code": "aculinaryartillery:bottle-glass-quartz-fired",
+					"attributes": {
+						"ucontents": [
+							{
+								"type": "item",
+								"code": "uppsalchemy:potionportion-regeneration-{tier}",
+								"makefull": true
+							}
+						]
+					}
+				}
+			]
+		}
+	],
+	"maxstacksize": 5000,
+	"materialDensity": 1000,
+	"guiTransform": {
+		"translation": {
+			"x": 0,
+			"y": 1,
+			"z": 0
+		},
+		"rotation": {
+			"x": 123,
+			"y": -33,
+			"z": -13
+		},
+		"origin": {
+			"x": 0.5,
+			"y": 0,
+			"z": 0.5
+		},
+		"scale": 1.4
+	},
+	"tpHandTransform": {
+		"translation": {
+			"x": -1.5,
+			"y": -1,
+			"z": -1.4
+		}
+	}
+}

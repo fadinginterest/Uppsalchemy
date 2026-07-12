@@ -1,0 +1,1082 @@
+[
+	{
+		"ingredients": [
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "expandedfoods:foodoilportion-*",
+						"quantity": 100
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "game:crushed-sphalerite",
+						"quantity": 1
+					}
+				]
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "uppsalchemy:tinctureof-sphalerite",
+			"stackSize": 100
+		}
+	},
+	{
+		"ingredients": [
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "expandedfoods:foodoilportion-*",
+						"quantity": 100
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "game:crushed-galena",
+						"quantity": 1
+					}
+				]
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "uppsalchemy:tinctureof-galena",
+			"stackSize": 100
+		}
+	},
+	{
+		"ingredients": [
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "expandedfoods:foodoilportion-*",
+						"quantity": 100
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "game:spiritportion-spelt",
+						"quantity": 100
+					},
+					{
+						"type": "item",
+						"code": "game:spiritportion-rice",
+						"quantity": 100
+					},
+					{
+						"type": "item",
+						"code": "game:spiritportion-rye",
+						"quantity": 100
+					},
+					{
+						"type": "item",
+						"code": "game:spiritportion-amaranth",
+						"quantity": 100
+					}
+				]
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "uppsalchemy:tinctureof-whiskey",
+			"stackSize": 100
+		}
+	},
+	{
+		"ingredients": [
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "expandedfoods:foodoilportion-*",
+						"quantity": 100
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "game:metalbit-tin",
+						"quantity": 1
+					}
+				]
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "uppsalchemy:tinctureof-tin",
+			"stackSize": 100
+		}
+	},
+	{
+		"ingredients": [
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "expandedfoods:foodoilportion-*",
+						"quantity": 100
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "game:spiritportion-blueberry",
+						"quantity": 100
+					},
+					{
+						"type": "item",
+						"code": "game:spiritportion-cranberry",
+						"quantity": 100
+					},
+					{
+						"type": "item",
+						"code": "game:spiritportion-redcurrant",
+						"quantity": 100
+					},
+					{
+						"type": "item",
+						"code": "game:spiritportion-whitecurrant",
+						"quantity": 100
+					},
+					{
+						"type": "item",
+						"code": "game:spiritportion-blackcurrant",
+						"quantity": 100
+					},
+					{
+						"type": "item",
+						"code": "game:spiritportion-saguaro",
+						"quantity": 100
+					},
+					{
+						"type": "item",
+						"code": "game:spiritportion-pineapple",
+						"quantity": 100
+					},
+					{
+						"type": "item",
+						"code": "game:spiritportion-apple",
+						"quantity": 100
+					},
+					{
+						"type": "item",
+						"code": "game:spiritportion-cherry",
+						"quantity": 100
+					},
+					{
+						"type": "item",
+						"code": "game:spiritportion-olive",
+						"quantity": 100
+					},
+					{
+						"type": "item",
+						"code": "game:spiritportion-peach",
+						"quantity": 100
+					},
+					{
+						"type": "item",
+						"code": "game:spiritportion-pear",
+						"quantity": 100
+					},
+					{
+						"type": "item",
+						"code": "game:spiritportion-orange",
+						"quantity": 100
+					},
+					{
+						"type": "item",
+						"code": "game:spiritportion-mango",
+						"quantity": 100
+					},
+					{
+						"type": "item",
+						"code": "game:spiritportion-pomegranate",
+						"quantity": 100
+					},
+					{
+						"type": "item",
+						"code": "game:spiritportion-beautyberry",
+						"quantity": 100
+					},
+					{
+						"type": "item",
+						"code": "game:spiritportion-blackberry",
+						"quantity": 100
+					},
+					{
+						"type": "item",
+						"code": "game:spiritportion-cactusfruit",
+						"quantity": 100
+					},
+					{
+						"type": "item",
+						"code": "game:spiritportion-cloudberry",
+						"quantity": 100
+					},
+					{
+						"type": "item",
+						"code": "game:spiritportion-gooseberry",
+						"quantity": 100
+					},
+					{
+						"type": "item",
+						"code": "game:spiritportion-guava",
+						"quantity": 100
+					},
+					{
+						"type": "item",
+						"code": "game:spiritportion-kumquat",
+						"quantity": 100
+					},
+					{
+						"type": "item",
+						"code": "game:spiritportion-plumnatal",
+						"quantity": 100
+					},
+					{
+						"type": "item",
+						"code": "game:spiritportion-raspberry",
+						"quantity": 100
+					},
+					{
+						"type": "item",
+						"code": "game:spiritportion-strawberry",
+						"quantity": 100
+					}
+				]
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "uppsalchemy:tinctureof-brandy",
+			"stackSize": 100
+		}
+	},
+	{
+		"ingredients": [
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "expandedfoods:foodoilportion-*",
+						"quantity": 100
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "game:crushed-bauxite",
+						"quantity": 1
+					}
+				]
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "uppsalchemy:tinctureof-bauxite",
+			"stackSize": 100
+		}
+	},
+	{
+		"ingredients": [
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "expandedfoods:foodoilportion-*",
+						"quantity": 100
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "game:candle",
+						"quantity": 1
+					}
+				]
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "uppsalchemy:tinctureof-candlewax",
+			"stackSize": 100
+		}
+	},
+	{
+		"ingredients": [
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "expandedfoods:foodoilportion-*",
+						"quantity": 100
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "game:feather",
+						"quantity": 1
+					}
+				]
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "uppsalchemy:tinctureof-birdfeathers",
+			"stackSize": 100
+		}
+	},
+	{
+		"ingredients": [
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "expandedfoods:foodoilportion-*",
+						"quantity": 100
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "game:spiritportion-mead",
+						"quantity": 100
+					}
+				]
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "uppsalchemy:tinctureof-distilledmead",
+			"stackSize": 100
+		}
+	},
+	{
+		"ingredients": [
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "expandedfoods:foodoilportion-*",
+						"quantity": 100
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "game:metalbit-iron",
+						"quantity": 1
+					}
+				]
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "uppsalchemy:tinctureof-iron",
+			"stackSize": 100
+		}
+	},
+	{
+		"ingredients": [
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "expandedfoods:foodoilportion-*",
+						"quantity": 100
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "game:powder-charcoal",
+						"quantity": 1
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "game:crushed-peridotite",
+						"quantity": 1
+					}
+				]
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "uppsalchemy:tinctureof-activatedperidotite",
+			"stackSize": 100
+		}
+	},
+	{
+		"ingredients": [
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "expandedfoods:foodoilportion-*",
+						"quantity": 100
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "game:crushed-sphalerite",
+						"quantity": 1
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "game:metalbit-iron",
+						"quantity": 1
+					}
+				]
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "uppsalchemy:tinctureof-ironzinc",
+			"stackSize": 100
+		}
+	},
+	{
+		"ingredients": [
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "expandedfoods:foodoilportion-*",
+						"quantity": 100
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "game:metalbit-copper",
+						"quantity": 1
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "uppsalchemy:tinctureof-whiskey",
+						"quantity": 100
+					}
+				]
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "uppsalchemy:tinctureof-cuprowhiskey",
+			"stackSize": 100
+		}
+	},
+	{
+		"ingredients": [
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "expandedfoods:foodoilportion-*",
+						"quantity": 100
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "game:crushed-peridotite",
+						"quantity": 1
+					}
+				]
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "uppsalchemy:tinctureof-peridotite",
+			"stackSize": 100
+		}
+	},
+	{
+		"ingredients": [
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "expandedfoods:foodoilportion-*",
+						"quantity": 100
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "game:vegetable-carrot",
+						"quantity": 1
+					}
+				]
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "uppsalchemy:tinctureof-carrot",
+			"stackSize": 100
+		}
+	},
+	{
+		"ingredients": [
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "expandedfoods:foodoilportion-*",
+						"quantity": 100
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "game:crushed-olivine",
+						"quantity": 1
+					}
+				]
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "uppsalchemy:tinctureof-olivine",
+			"stackSize": 100
+		}
+	},
+	{
+		"ingredients": [
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "expandedfoods:foodoilportion-*",
+						"quantity": 100
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "game:powder-charcoal",
+						"quantity": 1
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "game:metalbit-copper",
+						"quantity": 1
+					}
+				]
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "uppsalchemy:tinctureof-activatedcopper",
+			"stackSize": 100
+		}
+	},
+	{
+		"ingredients": [
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "expandedfoods:foodoilportion-*",
+						"quantity": 100
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "game:metalbit-gold",
+						"quantity": 1
+					}
+				]
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "uppsalchemy:tinctureof-gold",
+			"stackSize": 100
+		}
+	},
+	{
+		"ingredients": [
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "expandedfoods:foodoilportion-*",
+						"quantity": 100
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "game:metalbit-nickel",
+						"quantity": 1
+					}
+				]
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "uppsalchemy:tinctureof-nickel",
+			"stackSize": 100
+		}
+	},
+	{
+		"ingredients": [
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "expandedfoods:foodoilportion-*",
+						"quantity": 100
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "game:metalbit-zinc",
+						"quantity": 1
+					}
+				]
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "uppsalchemy:tinctureof-zinc",
+			"stackSize": 100
+		}
+	},
+	{
+		"ingredients": [
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "expandedfoods:foodoilportion-*",
+						"quantity": 100
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "game:metalbit-bismuth",
+						"quantity": 1
+					}
+				]
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "uppsalchemy:tinctureof-bismuth",
+			"stackSize": 100
+		}
+	},
+	{
+		"ingredients": [
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "expandedfoods:foodoilportion-*",
+						"quantity": 100
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "game:metalbit-silver",
+						"quantity": 1
+					}
+				]
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "uppsalchemy:tinctureof-silver",
+			"stackSize": 100
+		}
+	},
+	{
+		"ingredients": [
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "expandedfoods:foodoilportion-*",
+						"quantity": 100
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "game:candle",
+						"quantity": 1
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "game:metalbit-tin",
+						"quantity": 1
+					}
+				]
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "uppsalchemy:tinctureof-tinwax",
+			"stackSize": 100
+		}
+	},
+	{
+		"ingredients": [
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "expandedfoods:foodoilportion-*",
+						"quantity": 100
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "game:feather",
+						"quantity": 1
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "uppsalchemy:tinctureof-ironzinc",
+						"quantity": 100
+					}
+				]
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "uppsalchemy:tinctureof-birdpellet",
+			"stackSize": 100
+		}
+	},
+	{
+		"ingredients": [
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "expandedfoods:foodoilportion-*",
+						"quantity": 100
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "game:crushed-bauxite",
+						"quantity": 1
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "uppsalchemy:tinctureof-distilledmead",
+						"quantity": 100
+					}
+				]
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "uppsalchemy:tinctureof-distilledbauxite",
+			"stackSize": 100
+		}
+	},
+	{
+		"ingredients": [
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "expandedfoods:foodoilportion-*",
+						"quantity": 100
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "game:metalbit-tin",
+						"quantity": 1
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "uppsalchemy:tinctureof-brandy",
+						"quantity": 100
+					}
+				]
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "uppsalchemy:tinctureof-tinbrandy",
+			"stackSize": 100
+		}
+	},
+	{
+		"ingredients": [
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "expandedfoods:foodoilportion-*",
+						"quantity": 100
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "game:metalbit-tin",
+						"quantity": 1
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "game:candle",
+						"quantity": 1
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "uppsalchemy:tinctureof-brandy",
+						"quantity": 100
+					}
+				]
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "uppsalchemy:tinctureof-tinbrandywax",
+			"stackSize": 100
+		}
+	},
+	{
+		"ingredients": [
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "expandedfoods:foodoilportion-*",
+						"quantity": 100
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "uppsalchemy:tinctureof-whiskey",
+						"quantity": 100
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "game:crushed-bauxite",
+						"quantity": 1
+					}
+				]
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "uppsalchemy:tinctureof-whiskeybauxite",
+			"stackSize": 100
+		}
+	},
+	{
+		"ingredients": [
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "expandedfoods:foodoilportion-*",
+						"quantity": 100
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "uppsalchemy:tinctureof-carrot",
+						"quantity": 100
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "uppsalchemy:tinctureof-activatedcopper",
+						"quantity": 100
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "uppsalchemy:tinctureof-peridotite",
+						"quantity": 100
+					}
+				]
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "uppsalchemy:tinctureof-cruelpatience",
+			"stackSize": 100
+		}
+	},
+	{
+		"ingredients": [
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "expandedfoods:foodoilportion-*",
+						"quantity": 100
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "uppsalchemy:tinctureof-distilledmead",
+						"quantity": 100
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "uppsalchemy:tinctureof-iron",
+						"quantity": 100
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "uppsalchemy:tinctureof-activatedperidotite",
+						"quantity": 100
+					}
+				]
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "uppsalchemy:tinctureof-welcomepunishment",
+			"stackSize": 100
+		}
+	}
+]

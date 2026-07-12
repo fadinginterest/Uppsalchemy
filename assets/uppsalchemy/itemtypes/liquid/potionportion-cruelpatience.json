@@ -1,0 +1,163 @@
+{
+	"code": "potionportion-cruelpatience",
+	"class": "ItemLiquidPortion",
+	"matterState": "liquid",
+	"variantgroups": [
+		{
+			"code": "tier",
+			"states": [
+				"tier1",
+				"tier2",
+				"tier3"
+			]
+		}
+	],
+	"attributes": {
+		"waterTightContainerProps": {
+			"containable": true,
+			"itemsPerLitre": 100,
+			"texture": {
+				"base": "uppsalchemy:item/resource/heartblood"
+			},
+			"allowSpill": false,
+			"whenSpilled": {
+				"action": "DropContents",
+				"stack": {
+					"type": "item",
+					"code": "uppsalchemy:potionportion-cruelpatience-{tier}"
+				}
+			},
+			"nutritionPropsPerLitre": {
+				"satiety": 0,
+				"health": 0,
+				"foodcategory": "NoNutrition"
+			}
+		},
+		"handbook": {
+			"groupBy": [
+				"potionportion-cruelpatience-*"
+			],
+			"ignoreCreativeInvStacks": true,
+			"extraSections": [
+				{
+					"title": "uppsalchemy:item-handbooktitle-potionportion-cruelpatience",
+					"text": "uppsalchemy:item-handbooktext-potionportion-cruelpatience"
+				}
+			]
+		}
+	},
+	"attributesByType": {
+		"*-tier1": {
+			"alchemyEffect": {
+				"kind": "cruelpatience",
+				"durationSeconds": 60,
+				"accuracyMagnitude": 1.4,
+				"drawingMagnitude": 1.4,
+				"piercingMagnitude": 1.4,
+				"speedMagnitude": 0.85,
+				"configKey": "CruelPatience"
+			}
+		},
+		"*-tier2": {
+			"alchemyEffect": {
+				"kind": "cruelpatience",
+				"durationSeconds": 120,
+				"accuracyMagnitude": 1.6,
+				"drawingMagnitude": 1.6,
+				"piercingMagnitude": 1.6,
+				"speedMagnitude": 0.75,
+				"configKey": "CruelPatience"
+			}
+		},
+		"*-tier3": {
+			"alchemyEffect": {
+				"kind": "cruelpatience",
+				"durationSeconds": 240,
+				"accuracyMagnitude": 1.8,
+				"drawingMagnitude": 1.8,
+				"piercingMagnitude": 2.0,
+				"speedMagnitude": 0.70,
+				"configKey": "CruelPatience"
+			}
+		}
+	},
+	"transitionablePropsByType": {
+		"*-tier1": [{
+			"type": "Perish",
+			"freshHours": { "avg": 720 },
+			"transitionHours": { "avg": 1 },
+			"transitionedStack": { "type": "item", "code": "uppsalchemy:potionportion-expired" },
+			"transitionRatio": 1
+		}],
+		"*-tier2": [{
+			"type": "Perish",
+			"freshHours": { "avg": 2160 },
+			"transitionHours": { "avg": 1 },
+			"transitionedStack": { "type": "item", "code": "uppsalchemy:potionportion-expired" },
+			"transitionRatio": 1
+		}],
+		"*-tier3": [{
+			"type": "Perish",
+			"freshHours": { "avg": 4380 },
+			"transitionHours": { "avg": 1 },
+			"transitionedStack": { "type": "item", "code": "uppsalchemy:potionportion-expired" },
+			"transitionRatio": 1
+		}]
+	},
+	"shape": {
+		"base": "game:item/liquid"
+	},
+	"texture": {
+		"base": "uppsalchemy:item/resource/heartblood"
+	},
+	"creativeinventoryStacks": [
+		{
+			"tabs": [
+				"general",
+				"uppsalchemy"
+			],
+			"stacks": [
+				{
+					"type": "block",
+					"code": "aculinaryartillery:bottle-glass-quartz-fired",
+					"attributes": {
+						"ucontents": [
+							{
+								"type": "item",
+								"code": "uppsalchemy:potionportion-cruelpatience-{tier}",
+								"makefull": true
+							}
+						]
+					}
+				}
+			]
+		}
+	],
+	"maxstacksize": 5000,
+	"materialDensity": 1000,
+	"guiTransform": {
+		"translation": {
+			"x": 0,
+			"y": 1,
+			"z": 0
+		},
+		"rotation": {
+			"x": 123,
+			"y": -33,
+			"z": -13
+		},
+		"origin": {
+			"x": 0.5,
+			"y": 0,
+			"z": 0.5
+		},
+		"scale": 1.4
+	},
+	"tpHandTransform": {
+		"translation": {
+			"x": -1.5,
+			"y": -1,
+			"z": -1.4
+		}
+	}
+}

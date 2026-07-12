@@ -1,0 +1,1188 @@
+{
+	"code": "potionportion-unfinished",
+	"class": "ItemLiquidPortion",
+	"matterState": "liquid",
+	"variantgroups": [
+		{
+			"code": "flavor",
+			"states": [
+				"featherfall",
+				"warmth",
+				"healing",
+				"regeneration",
+				"swiftness",
+				"aqualung",
+				"radiance",
+				"sustenance",
+				"vitality",
+				"durability",
+				"encumbrance",
+				"jumping",
+				"strength",
+				"piercing",
+				"accuracy",
+				"flow",
+				"drawing",
+				"orefortune",
+				"huntersfortune",
+				"foragersfortune",
+				"harvestfortune",
+				"ancientfortune",
+				"glowingbreath",
+				"gracefulleaping",
+				"greaterrestoration",
+				"shelteredexploration",
+				"limitlessexploration",
+				"suddenrejuvenation",
+				"welcomepunishment",
+				"cruelpatience"
+			]
+		},
+		{
+			"code": "tier",
+			"states": [
+				"tier1",
+				"tier2",
+				"tier2cured",
+				"tier3"
+			]
+		}
+	],
+	"attributes": {
+		"waterTightContainerProps": {
+			"containable": true,
+			"itemsPerLitre": 100,
+			"texturebytype": {
+				"*-featherfall-*": {
+					"base": "uppsalchemy:item/resource/lavender_desat"
+				},
+				"*-warmth-*": {
+					"base": "uppsalchemy:item/resource/burntorange_desat"
+				},
+				"*-healing-*": {
+					"base": "uppsalchemy:item/resource/crimsonred_desat"
+				},
+				"*-regeneration-*": {
+					"base": "uppsalchemy:item/resource/emeraldgreen_desat"
+				},
+				"*-swiftness-*": {
+					"base": "uppsalchemy:item/resource/brightcyan_desat"
+				},
+				"*-aqualung-*": {
+					"base": "uppsalchemy:item/resource/oceanblue_desat"
+				},
+				"*-radiance-*": {
+					"base": "uppsalchemy:item/resource/palemint_desat"
+				},
+				"*-sustenance-*": {
+					"base": "uppsalchemy:item/resource/goldenyellow_desat"
+				},
+				"*-vitality-*": {
+					"base": "uppsalchemy:item/resource/rosepink_desat"
+				},
+				"*-durability-*": {
+					"base": "uppsalchemy:item/resource/slateblue_desat"
+				},
+				"*-encumbrance-*": {
+					"base": "uppsalchemy:item/resource/periwinkleblue_desat"
+				},
+				"*-jumping-*": {
+					"base": "uppsalchemy:item/resource/chartreuse_desat"
+				},
+				"*-strength-*": {
+					"base": "uppsalchemy:item/resource/tomatored_desat"
+				},
+				"*-piercing-*": {
+					"base": "uppsalchemy:item/resource/ceruleanblue_desat"
+				},
+				"*-accuracy-*": {
+					"base": "uppsalchemy:item/resource/forestgreen_desat"
+				},
+				"*-flow-*": {
+					"base": "uppsalchemy:item/resource/royalblue_desat"
+				},
+				"*-drawing-*": {
+					"base": "uppsalchemy:item/resource/darkviolet_desat"
+				},
+				"*-orefortune-*": {
+					"base": "uppsalchemy:item/resource/amethystpurple_desat"
+				},
+				"*-huntersfortune-*": {
+					"base": "uppsalchemy:item/resource/paleseafoam_desat"
+				},
+				"*-foragersfortune-*": {
+					"base": "uppsalchemy:item/resource/olivegreen_desat"
+				},
+				"*-harvestfortune-*": {
+					"base": "uppsalchemy:item/resource/sandyyellow_desat"
+				},
+				"*-ancientfortune-*": {
+					"base": "uppsalchemy:item/resource/deeppurple_desat"
+				},
+				"*-glowingbreath-*": {
+					"base": "uppsalchemy:item/resource/paleaquamarine_desat"
+				},
+				"*-gracefulleaping-*": {
+					"base": "uppsalchemy:item/resource/lightlime_desat"
+				},
+				"*-greaterrestoration-*": {
+					"base": "uppsalchemy:item/resource/dustyrose_desat"
+				},
+				"*-shelteredexploration-*": {
+					"base": "uppsalchemy:item/resource/darkteal_desat"
+				},
+				"*-limitlessexploration-*": {
+					"base": "uppsalchemy:item/resource/ultramarineblue_desat"
+				},
+				"*-suddenrejuvenation-*": {
+					"base": "uppsalchemy:item/resource/brightgreen_desat"
+				},
+				"*-welcomepunishment-*": {
+					"base": "uppsalchemy:item/resource/greensteel_desat"
+				},
+				"*-cruelpatience-*": {
+					"base": "uppsalchemy:item/resource/heartblood_desat"
+				}
+			},
+			"allowSpill": true,
+			"whenSpilled": {
+				"action": "DropContents",
+				"stack": {
+					"type": "item",
+					"code": "uppsalchemy:potionportion-unfinished-{flavor}-{tier}"
+				}
+			}
+		}
+	},
+	"attributesByType": {
+		"*-featherfall-*": {
+			"handbook": {
+				"groupBy": [
+					"potionportion-unfinished-featherfall-*"
+				],
+				"ignoreCreativeInvStacks": true,
+				"extraSections": [
+					{
+						"title": "uppsalchemy:item-handbooktitle-potionportion-unfinished-featherfall",
+						"text": "uppsalchemy:item-handbooktext-potionportion-unfinished-featherfall"
+					}
+				]
+			}
+		},
+		"*-warmth-*": {
+			"handbook": {
+				"groupBy": [
+					"potionportion-unfinished-warmth-*"
+				],
+				"ignoreCreativeInvStacks": true,
+				"extraSections": [
+					{
+						"title": "uppsalchemy:item-handbooktitle-potionportion-unfinished-warmth",
+						"text": "uppsalchemy:item-handbooktext-potionportion-unfinished-warmth"
+					}
+				]
+			}
+		},
+		"*-healing-*": {
+			"handbook": {
+				"groupBy": [
+					"potionportion-unfinished-healing-*"
+				],
+				"ignoreCreativeInvStacks": true,
+				"extraSections": [
+					{
+						"title": "uppsalchemy:item-handbooktitle-potionportion-unfinished-healing",
+						"text": "uppsalchemy:item-handbooktext-potionportion-unfinished-healing"
+					}
+				]
+			}
+		},
+		"*-regeneration-*": {
+			"handbook": {
+				"groupBy": [
+					"potionportion-unfinished-regeneration-*"
+				],
+				"ignoreCreativeInvStacks": true,
+				"extraSections": [
+					{
+						"title": "uppsalchemy:item-handbooktitle-potionportion-unfinished-regeneration",
+						"text": "uppsalchemy:item-handbooktext-potionportion-unfinished-regeneration"
+					}
+				]
+			}
+		},
+		"*-swiftness-*": {
+			"handbook": {
+				"groupBy": [
+					"potionportion-unfinished-swiftness-*"
+				],
+				"ignoreCreativeInvStacks": true,
+				"extraSections": [
+					{
+						"title": "uppsalchemy:item-handbooktitle-potionportion-unfinished-swiftness",
+						"text": "uppsalchemy:item-handbooktext-potionportion-unfinished-swiftness"
+					}
+				]
+			}
+		},
+		"*-aqualung-*": {
+			"handbook": {
+				"groupBy": [
+					"potionportion-unfinished-aqualung-*"
+				],
+				"ignoreCreativeInvStacks": true,
+				"extraSections": [
+					{
+						"title": "uppsalchemy:item-handbooktitle-potionportion-unfinished-aqualung",
+						"text": "uppsalchemy:item-handbooktext-potionportion-unfinished-aqualung"
+					}
+				]
+			}
+		},
+		"*-radiance-*": {
+			"handbook": {
+				"groupBy": [
+					"potionportion-unfinished-radiance-*"
+				],
+				"ignoreCreativeInvStacks": true,
+				"extraSections": [
+					{
+						"title": "uppsalchemy:item-handbooktitle-potionportion-unfinished-radiance",
+						"text": "uppsalchemy:item-handbooktext-potionportion-unfinished-radiance"
+					}
+				]
+			}
+		},
+		"*-sustenance-*": {
+			"handbook": {
+				"groupBy": [
+					"potionportion-unfinished-sustenance-*"
+				],
+				"ignoreCreativeInvStacks": true,
+				"extraSections": [
+					{
+						"title": "uppsalchemy:item-handbooktitle-potionportion-unfinished-sustenance",
+						"text": "uppsalchemy:item-handbooktext-potionportion-unfinished-sustenance"
+					}
+				]
+			}
+		},
+		"*-vitality-*": {
+			"handbook": {
+				"groupBy": [
+					"potionportion-unfinished-vitality-*"
+				],
+				"ignoreCreativeInvStacks": true,
+				"extraSections": [
+					{
+						"title": "uppsalchemy:item-handbooktitle-potionportion-unfinished-vitality",
+						"text": "uppsalchemy:item-handbooktext-potionportion-unfinished-vitality"
+					}
+				]
+			}
+		},
+		"*-durability-*": {
+			"handbook": {
+				"groupBy": [
+					"potionportion-unfinished-durability-*"
+				],
+				"ignoreCreativeInvStacks": true,
+				"extraSections": [
+					{
+						"title": "uppsalchemy:item-handbooktitle-potionportion-unfinished-durability",
+						"text": "uppsalchemy:item-handbooktext-potionportion-unfinished-durability"
+					}
+				]
+			}
+		},
+		"*-encumbrance-*": {
+			"handbook": {
+				"groupBy": [
+					"potionportion-unfinished-encumbrance-*"
+				],
+				"ignoreCreativeInvStacks": true,
+				"extraSections": [
+					{
+						"title": "uppsalchemy:item-handbooktitle-potionportion-unfinished-encumbrance",
+						"text": "uppsalchemy:item-handbooktext-potionportion-unfinished-encumbrance"
+					}
+				]
+			}
+		},
+		"*-jumping-*": {
+			"handbook": {
+				"groupBy": [
+					"potionportion-unfinished-jumping-*"
+				],
+				"ignoreCreativeInvStacks": true,
+				"extraSections": [
+					{
+						"title": "uppsalchemy:item-handbooktitle-potionportion-unfinished-jumping",
+						"text": "uppsalchemy:item-handbooktext-potionportion-unfinished-jumping"
+					}
+				]
+			}
+		},
+		"*-strength-*": {
+			"handbook": {
+				"groupBy": [
+					"potionportion-unfinished-strength-*"
+				],
+				"ignoreCreativeInvStacks": true,
+				"extraSections": [
+					{
+						"title": "uppsalchemy:item-handbooktitle-potionportion-unfinished-strength",
+						"text": "uppsalchemy:item-handbooktext-potionportion-unfinished-strength"
+					}
+				]
+			}
+		},
+		"*-piercing-*": {
+			"handbook": {
+				"groupBy": [
+					"potionportion-unfinished-piercing-*"
+				],
+				"ignoreCreativeInvStacks": true,
+				"extraSections": [
+					{
+						"title": "uppsalchemy:item-handbooktitle-potionportion-unfinished-piercing",
+						"text": "uppsalchemy:item-handbooktext-potionportion-unfinished-piercing"
+					}
+				]
+			}
+		},
+		"*-accuracy-*": {
+			"handbook": {
+				"groupBy": [
+					"potionportion-unfinished-accuracy-*"
+				],
+				"ignoreCreativeInvStacks": true,
+				"extraSections": [
+					{
+						"title": "uppsalchemy:item-handbooktitle-potionportion-unfinished-accuracy",
+						"text": "uppsalchemy:item-handbooktext-potionportion-unfinished-accuracy"
+					}
+				]
+			}
+		},
+		"*-flow-*": {
+			"handbook": {
+				"groupBy": [
+					"potionportion-unfinished-flow-*"
+				],
+				"ignoreCreativeInvStacks": true,
+				"extraSections": [
+					{
+						"title": "uppsalchemy:item-handbooktitle-potionportion-unfinished-flow",
+						"text": "uppsalchemy:item-handbooktext-potionportion-unfinished-flow"
+					}
+				]
+			}
+		},
+		"*-drawing-*": {
+			"handbook": {
+				"groupBy": [
+					"potionportion-unfinished-drawing-*"
+				],
+				"ignoreCreativeInvStacks": true,
+				"extraSections": [
+					{
+						"title": "uppsalchemy:item-handbooktitle-potionportion-unfinished-drawing",
+						"text": "uppsalchemy:item-handbooktext-potionportion-unfinished-drawing"
+					}
+				]
+			}
+		},
+		"*-orefortune-*": {
+			"handbook": {
+				"groupBy": [
+					"potionportion-unfinished-orefortune-*"
+				],
+				"ignoreCreativeInvStacks": true,
+				"extraSections": [
+					{
+						"title": "uppsalchemy:item-handbooktitle-potionportion-unfinished-orefortune",
+						"text": "uppsalchemy:item-handbooktext-potionportion-unfinished-orefortune"
+					}
+				]
+			}
+		},
+		"*-huntersfortune-*": {
+			"handbook": {
+				"groupBy": [
+					"potionportion-unfinished-huntersfortune-*"
+				],
+				"ignoreCreativeInvStacks": true,
+				"extraSections": [
+					{
+						"title": "uppsalchemy:item-handbooktitle-potionportion-unfinished-huntersfortune",
+						"text": "uppsalchemy:item-handbooktext-potionportion-unfinished-huntersfortune"
+					}
+				]
+			}
+		},
+		"*-foragersfortune-*": {
+			"handbook": {
+				"groupBy": [
+					"potionportion-unfinished-foragersfortune-*"
+				],
+				"ignoreCreativeInvStacks": true,
+				"extraSections": [
+					{
+						"title": "uppsalchemy:item-handbooktitle-potionportion-unfinished-foragersfortune",
+						"text": "uppsalchemy:item-handbooktext-potionportion-unfinished-foragersfortune"
+					}
+				]
+			}
+		},
+		"*-harvestfortune-*": {
+			"handbook": {
+				"groupBy": [
+					"potionportion-unfinished-harvestfortune-*"
+				],
+				"ignoreCreativeInvStacks": true,
+				"extraSections": [
+					{
+						"title": "uppsalchemy:item-handbooktitle-potionportion-unfinished-harvestfortune",
+						"text": "uppsalchemy:item-handbooktext-potionportion-unfinished-harvestfortune"
+					}
+				]
+			}
+		},
+		"*-ancientfortune-*": {
+			"handbook": {
+				"groupBy": [
+					"potionportion-unfinished-ancientfortune-*"
+				],
+				"ignoreCreativeInvStacks": true,
+				"extraSections": [
+					{
+						"title": "uppsalchemy:item-handbooktitle-potionportion-unfinished-ancientfortune",
+						"text": "uppsalchemy:item-handbooktext-potionportion-unfinished-ancientfortune"
+					}
+				]
+			}
+		},
+		"*-glowingbreath-*": {
+			"handbook": {
+				"groupBy": [
+					"potionportion-unfinished-glowingbreath-*"
+				],
+				"ignoreCreativeInvStacks": true,
+				"extraSections": [
+					{
+						"title": "uppsalchemy:item-handbooktitle-potionportion-unfinished-glowingbreath",
+						"text": "uppsalchemy:item-handbooktext-potionportion-unfinished-glowingbreath"
+					}
+				]
+			}
+		},
+		"*-gracefulleaping-*": {
+			"handbook": {
+				"groupBy": [
+					"potionportion-unfinished-gracefulleaping-*"
+				],
+				"ignoreCreativeInvStacks": true,
+				"extraSections": [
+					{
+						"title": "uppsalchemy:item-handbooktitle-potionportion-unfinished-gracefulleaping",
+						"text": "uppsalchemy:item-handbooktext-potionportion-unfinished-gracefulleaping"
+					}
+				]
+			}
+		},
+		"*-greaterrestoration-*": {
+			"handbook": {
+				"groupBy": [
+					"potionportion-unfinished-greaterrestoration-*"
+				],
+				"ignoreCreativeInvStacks": true,
+				"extraSections": [
+					{
+						"title": "uppsalchemy:item-handbooktitle-potionportion-unfinished-greaterrestoration",
+						"text": "uppsalchemy:item-handbooktext-potionportion-unfinished-greaterrestoration"
+					}
+				]
+			}
+		},
+		"*-shelteredexploration-*": {
+			"handbook": {
+				"groupBy": [
+					"potionportion-unfinished-shelteredexploration-*"
+				],
+				"ignoreCreativeInvStacks": true,
+				"extraSections": [
+					{
+						"title": "uppsalchemy:item-handbooktitle-potionportion-unfinished-shelteredexploration",
+						"text": "uppsalchemy:item-handbooktext-potionportion-unfinished-shelteredexploration"
+					}
+				]
+			}
+		},
+		"*-limitlessexploration-*": {
+			"handbook": {
+				"groupBy": [
+					"potionportion-unfinished-limitlessexploration-*"
+				],
+				"ignoreCreativeInvStacks": true,
+				"extraSections": [
+					{
+						"title": "uppsalchemy:item-handbooktitle-potionportion-unfinished-limitlessexploration",
+						"text": "uppsalchemy:item-handbooktext-potionportion-unfinished-limitlessexploration"
+					}
+				]
+			}
+		},
+		"*-suddenrejuvenation-*": {
+			"handbook": {
+				"groupBy": [
+					"potionportion-unfinished-suddenrejuvenation-*"
+				],
+				"ignoreCreativeInvStacks": true,
+				"extraSections": [
+					{
+						"title": "uppsalchemy:item-handbooktitle-potionportion-unfinished-suddenrejuvenation",
+						"text": "uppsalchemy:item-handbooktext-potionportion-unfinished-suddenrejuvenation"
+					}
+				]
+			}
+		},
+		"*-welcomepunishment-*": {
+			"handbook": {
+				"groupBy": [
+					"potionportion-unfinished-welcomepunishment-*"
+				],
+				"ignoreCreativeInvStacks": true,
+				"extraSections": [
+					{
+						"title": "uppsalchemy:item-handbooktitle-potionportion-unfinished-welcomepunishment",
+						"text": "uppsalchemy:item-handbooktext-potionportion-unfinished-welcomepunishment"
+					}
+				]
+			}
+		},
+		"*-cruelpatience-*": {
+			"handbook": {
+				"groupBy": [
+					"potionportion-unfinished-cruelpatience-*"
+				],
+				"ignoreCreativeInvStacks": true,
+				"extraSections": [
+					{
+						"title": "uppsalchemy:item-handbooktitle-potionportion-unfinished-cruelpatience",
+						"text": "uppsalchemy:item-handbooktext-potionportion-unfinished-cruelpatience"
+					}
+				]
+			}
+		}
+	},
+	"shape": {
+		"base": "game:item/liquid"
+	},
+	"texturebytype": {
+		"*-featherfall-*": {
+			"base": "uppsalchemy:item/resource/lavender_desat"
+		},
+		"*-warmth-*": {
+			"base": "uppsalchemy:item/resource/burntorange_desat"
+		},
+		"*-healing-*": {
+			"base": "uppsalchemy:item/resource/crimsonred_desat"
+		},
+		"*-regeneration-*": {
+			"base": "uppsalchemy:item/resource/emeraldgreen_desat"
+		},
+		"*-swiftness-*": {
+			"base": "uppsalchemy:item/resource/brightcyan_desat"
+		},
+		"*-aqualung-*": {
+			"base": "uppsalchemy:item/resource/oceanblue_desat"
+		},
+		"*-radiance-*": {
+			"base": "uppsalchemy:item/resource/palemint_desat"
+		},
+		"*-sustenance-*": {
+			"base": "uppsalchemy:item/resource/goldenyellow_desat"
+		},
+		"*-vitality-*": {
+			"base": "uppsalchemy:item/resource/rosepink_desat"
+		},
+		"*-durability-*": {
+			"base": "uppsalchemy:item/resource/slateblue_desat"
+		},
+		"*-encumbrance-*": {
+			"base": "uppsalchemy:item/resource/periwinkleblue_desat"
+		},
+		"*-jumping-*": {
+			"base": "uppsalchemy:item/resource/chartreuse_desat"
+		},
+		"*-strength-*": {
+			"base": "uppsalchemy:item/resource/tomatored_desat"
+		},
+		"*-piercing-*": {
+			"base": "uppsalchemy:item/resource/ceruleanblue_desat"
+		},
+		"*-accuracy-*": {
+			"base": "uppsalchemy:item/resource/forestgreen_desat"
+		},
+		"*-flow-*": {
+			"base": "uppsalchemy:item/resource/royalblue_desat"
+		},
+		"*-drawing-*": {
+			"base": "uppsalchemy:item/resource/darkviolet_desat"
+		},
+		"*-orefortune-*": {
+			"base": "uppsalchemy:item/resource/amethystpurple_desat"
+		},
+		"*-huntersfortune-*": {
+			"base": "uppsalchemy:item/resource/paleseafoam_desat"
+		},
+		"*-foragersfortune-*": {
+			"base": "uppsalchemy:item/resource/olivegreen_desat"
+		},
+		"*-harvestfortune-*": {
+			"base": "uppsalchemy:item/resource/sandyyellow_desat"
+		},
+		"*-ancientfortune-*": {
+			"base": "uppsalchemy:item/resource/deeppurple_desat"
+		},
+		"*-glowingbreath-*": {
+			"base": "uppsalchemy:item/resource/paleaquamarine_desat"
+		},
+		"*-gracefulleaping-*": {
+			"base": "uppsalchemy:item/resource/lightlime_desat"
+		},
+		"*-greaterrestoration-*": {
+			"base": "uppsalchemy:item/resource/dustyrose_desat"
+		},
+		"*-shelteredexploration-*": {
+			"base": "uppsalchemy:item/resource/darkteal_desat"
+		},
+		"*-limitlessexploration-*": {
+			"base": "uppsalchemy:item/resource/ultramarineblue_desat"
+		},
+		"*-suddenrejuvenation-*": {
+			"base": "uppsalchemy:item/resource/brightgreen_desat"
+		},
+		"*-welcomepunishment-*": {
+			"base": "uppsalchemy:item/resource/greensteel_desat"
+		},
+		"*-cruelpatience-*": {
+			"base": "uppsalchemy:item/resource/heartblood_desat"
+		}
+	},
+	"creativeinventory": {
+		"general": [
+			"*"
+		]
+	},
+	"maxstacksize": 5000,
+	"materialDensity": 1000,
+	"guiTransform": {
+		"translation": {
+			"x": 0,
+			"y": 1,
+			"z": 0
+		},
+		"rotation": {
+			"x": 123,
+			"y": -33,
+			"z": -13
+		},
+		"origin": {
+			"x": 0.5,
+			"y": 0,
+			"z": 0.5
+		},
+		"scale": 1.4
+	},
+	"tpHandTransform": {
+		"translation": {
+			"x": -1.5,
+			"y": -1,
+			"z": -1.4
+		}
+	},
+	"transitionablePropsByType": {
+		"*-featherfall-tier2": [
+			{
+				"type": "Cure",
+				"freshHours": {
+					"avg": 48
+				},
+				"transitionHours": {
+					"avg": 96
+				},
+				"transitionedStack": {
+					"type": "item",
+					"code": "uppsalchemy:potionportion-unfinished-featherfall-tier2cured"
+				},
+				"transitionRatio": 1
+			}
+		],
+		"*-warmth-tier2": [
+			{
+				"type": "Cure",
+				"freshHours": {
+					"avg": 48
+				},
+				"transitionHours": {
+					"avg": 96
+				},
+				"transitionedStack": {
+					"type": "item",
+					"code": "uppsalchemy:potionportion-unfinished-warmth-tier2cured"
+				},
+				"transitionRatio": 1
+			}
+		],
+		"*-healing-tier2": [
+			{
+				"type": "Cure",
+				"freshHours": {
+					"avg": 48
+				},
+				"transitionHours": {
+					"avg": 96
+				},
+				"transitionedStack": {
+					"type": "item",
+					"code": "uppsalchemy:potionportion-unfinished-healing-tier2cured"
+				},
+				"transitionRatio": 1
+			}
+		],
+		"*-regeneration-tier2": [
+			{
+				"type": "Cure",
+				"freshHours": {
+					"avg": 48
+				},
+				"transitionHours": {
+					"avg": 96
+				},
+				"transitionedStack": {
+					"type": "item",
+					"code": "uppsalchemy:potionportion-unfinished-regeneration-tier2cured"
+				},
+				"transitionRatio": 1
+			}
+		],
+		"*-swiftness-tier2": [
+			{
+				"type": "Cure",
+				"freshHours": {
+					"avg": 48
+				},
+				"transitionHours": {
+					"avg": 96
+				},
+				"transitionedStack": {
+					"type": "item",
+					"code": "uppsalchemy:potionportion-unfinished-swiftness-tier2cured"
+				},
+				"transitionRatio": 1
+			}
+		],
+		"*-aqualung-tier2": [
+			{
+				"type": "Cure",
+				"freshHours": {
+					"avg": 48
+				},
+				"transitionHours": {
+					"avg": 96
+				},
+				"transitionedStack": {
+					"type": "item",
+					"code": "uppsalchemy:potionportion-unfinished-aqualung-tier2cured"
+				},
+				"transitionRatio": 1
+			}
+		],
+		"*-radiance-tier2": [
+			{
+				"type": "Cure",
+				"freshHours": {
+					"avg": 48
+				},
+				"transitionHours": {
+					"avg": 96
+				},
+				"transitionedStack": {
+					"type": "item",
+					"code": "uppsalchemy:potionportion-unfinished-radiance-tier2cured"
+				},
+				"transitionRatio": 1
+			}
+		],
+		"*-sustenance-tier2": [
+			{
+				"type": "Cure",
+				"freshHours": {
+					"avg": 48
+				},
+				"transitionHours": {
+					"avg": 96
+				},
+				"transitionedStack": {
+					"type": "item",
+					"code": "uppsalchemy:potionportion-unfinished-sustenance-tier2cured"
+				},
+				"transitionRatio": 1
+			}
+		],
+		"*-vitality-tier2": [
+			{
+				"type": "Cure",
+				"freshHours": {
+					"avg": 48
+				},
+				"transitionHours": {
+					"avg": 96
+				},
+				"transitionedStack": {
+					"type": "item",
+					"code": "uppsalchemy:potionportion-unfinished-vitality-tier2cured"
+				},
+				"transitionRatio": 1
+			}
+		],
+		"*-durability-tier2": [
+			{
+				"type": "Cure",
+				"freshHours": {
+					"avg": 48
+				},
+				"transitionHours": {
+					"avg": 96
+				},
+				"transitionedStack": {
+					"type": "item",
+					"code": "uppsalchemy:potionportion-unfinished-durability-tier2cured"
+				},
+				"transitionRatio": 1
+			}
+		],
+		"*-encumbrance-tier2": [
+			{
+				"type": "Cure",
+				"freshHours": {
+					"avg": 48
+				},
+				"transitionHours": {
+					"avg": 96
+				},
+				"transitionedStack": {
+					"type": "item",
+					"code": "uppsalchemy:potionportion-unfinished-encumbrance-tier2cured"
+				},
+				"transitionRatio": 1
+			}
+		],
+		"*-jumping-tier2": [
+			{
+				"type": "Cure",
+				"freshHours": {
+					"avg": 48
+				},
+				"transitionHours": {
+					"avg": 96
+				},
+				"transitionedStack": {
+					"type": "item",
+					"code": "uppsalchemy:potionportion-unfinished-jumping-tier2cured"
+				},
+				"transitionRatio": 1
+			}
+		],
+		"*-strength-tier2": [
+			{
+				"type": "Cure",
+				"freshHours": {
+					"avg": 48
+				},
+				"transitionHours": {
+					"avg": 96
+				},
+				"transitionedStack": {
+					"type": "item",
+					"code": "uppsalchemy:potionportion-unfinished-strength-tier2cured"
+				},
+				"transitionRatio": 1
+			}
+		],
+		"*-piercing-tier2": [
+			{
+				"type": "Cure",
+				"freshHours": {
+					"avg": 48
+				},
+				"transitionHours": {
+					"avg": 96
+				},
+				"transitionedStack": {
+					"type": "item",
+					"code": "uppsalchemy:potionportion-unfinished-piercing-tier2cured"
+				},
+				"transitionRatio": 1
+			}
+		],
+		"*-accuracy-tier2": [
+			{
+				"type": "Cure",
+				"freshHours": {
+					"avg": 48
+				},
+				"transitionHours": {
+					"avg": 96
+				},
+				"transitionedStack": {
+					"type": "item",
+					"code": "uppsalchemy:potionportion-unfinished-accuracy-tier2cured"
+				},
+				"transitionRatio": 1
+			}
+		],
+		"*-flow-tier2": [
+			{
+				"type": "Cure",
+				"freshHours": {
+					"avg": 48
+				},
+				"transitionHours": {
+					"avg": 96
+				},
+				"transitionedStack": {
+					"type": "item",
+					"code": "uppsalchemy:potionportion-unfinished-flow-tier2cured"
+				},
+				"transitionRatio": 1
+			}
+		],
+		"*-drawing-tier2": [
+			{
+				"type": "Cure",
+				"freshHours": {
+					"avg": 48
+				},
+				"transitionHours": {
+					"avg": 96
+				},
+				"transitionedStack": {
+					"type": "item",
+					"code": "uppsalchemy:potionportion-unfinished-drawing-tier2cured"
+				},
+				"transitionRatio": 1
+			}
+		],
+		"*-orefortune-tier2": [
+			{
+				"type": "Cure",
+				"freshHours": {
+					"avg": 48
+				},
+				"transitionHours": {
+					"avg": 96
+				},
+				"transitionedStack": {
+					"type": "item",
+					"code": "uppsalchemy:potionportion-unfinished-orefortune-tier2cured"
+				},
+				"transitionRatio": 1
+			}
+		],
+		"*-huntersfortune-tier2": [
+			{
+				"type": "Cure",
+				"freshHours": {
+					"avg": 48
+				},
+				"transitionHours": {
+					"avg": 96
+				},
+				"transitionedStack": {
+					"type": "item",
+					"code": "uppsalchemy:potionportion-unfinished-huntersfortune-tier2cured"
+				},
+				"transitionRatio": 1
+			}
+		],
+		"*-foragersfortune-tier2": [
+			{
+				"type": "Cure",
+				"freshHours": {
+					"avg": 48
+				},
+				"transitionHours": {
+					"avg": 96
+				},
+				"transitionedStack": {
+					"type": "item",
+					"code": "uppsalchemy:potionportion-unfinished-foragersfortune-tier2cured"
+				},
+				"transitionRatio": 1
+			}
+		],
+		"*-harvestfortune-tier2": [
+			{
+				"type": "Cure",
+				"freshHours": {
+					"avg": 48
+				},
+				"transitionHours": {
+					"avg": 96
+				},
+				"transitionedStack": {
+					"type": "item",
+					"code": "uppsalchemy:potionportion-unfinished-harvestfortune-tier2cured"
+				},
+				"transitionRatio": 1
+			}
+		],
+		"*-ancientfortune-tier2": [
+			{
+				"type": "Cure",
+				"freshHours": {
+					"avg": 48
+				},
+				"transitionHours": {
+					"avg": 96
+				},
+				"transitionedStack": {
+					"type": "item",
+					"code": "uppsalchemy:potionportion-unfinished-ancientfortune-tier2cured"
+				},
+				"transitionRatio": 1
+			}
+		],
+		"*-glowingbreath-tier2": [
+			{
+				"type": "Cure",
+				"freshHours": {
+					"avg": 48
+				},
+				"transitionHours": {
+					"avg": 96
+				},
+				"transitionedStack": {
+					"type": "item",
+					"code": "uppsalchemy:potionportion-unfinished-glowingbreath-tier2cured"
+				},
+				"transitionRatio": 1
+			}
+		],
+		"*-gracefulleaping-tier2": [
+			{
+				"type": "Cure",
+				"freshHours": {
+					"avg": 48
+				},
+				"transitionHours": {
+					"avg": 96
+				},
+				"transitionedStack": {
+					"type": "item",
+					"code": "uppsalchemy:potionportion-unfinished-gracefulleaping-tier2cured"
+				},
+				"transitionRatio": 1
+			}
+		],
+		"*-greaterrestoration-tier2": [
+			{
+				"type": "Cure",
+				"freshHours": {
+					"avg": 48
+				},
+				"transitionHours": {
+					"avg": 96
+				},
+				"transitionedStack": {
+					"type": "item",
+					"code": "uppsalchemy:potionportion-unfinished-greaterrestoration-tier2cured"
+				},
+				"transitionRatio": 1
+			}
+		],
+		"*-shelteredexploration-tier2": [
+			{
+				"type": "Cure",
+				"freshHours": {
+					"avg": 48
+				},
+				"transitionHours": {
+					"avg": 96
+				},
+				"transitionedStack": {
+					"type": "item",
+					"code": "uppsalchemy:potionportion-unfinished-shelteredexploration-tier2cured"
+				},
+				"transitionRatio": 1
+			}
+		],
+		"*-limitlessexploration-tier2": [
+			{
+				"type": "Cure",
+				"freshHours": {
+					"avg": 48
+				},
+				"transitionHours": {
+					"avg": 96
+				},
+				"transitionedStack": {
+					"type": "item",
+					"code": "uppsalchemy:potionportion-unfinished-limitlessexploration-tier2cured"
+				},
+				"transitionRatio": 1
+			}
+		],
+		"*-suddenrejuvenation-tier2": [
+			{
+				"type": "Cure",
+				"freshHours": {
+					"avg": 48
+				},
+				"transitionHours": {
+					"avg": 96
+				},
+				"transitionedStack": {
+					"type": "item",
+					"code": "uppsalchemy:potionportion-unfinished-suddenrejuvenation-tier2cured"
+				},
+				"transitionRatio": 1
+			}
+		],
+		"*-welcomepunishment-tier2": [
+			{
+				"type": "Cure",
+				"freshHours": {
+					"avg": 48
+				},
+				"transitionHours": {
+					"avg": 96
+				},
+				"transitionedStack": {
+					"type": "item",
+					"code": "uppsalchemy:potionportion-unfinished-welcomepunishment-tier2cured"
+				},
+				"transitionRatio": 1
+			}
+		],
+		"*-cruelpatience-tier2": [
+			{
+				"type": "Cure",
+				"freshHours": {
+					"avg": 48
+				},
+				"transitionHours": {
+					"avg": 96
+				},
+				"transitionedStack": {
+					"type": "item",
+					"code": "uppsalchemy:potionportion-unfinished-cruelpatience-tier2cured"
+				},
+				"transitionRatio": 1
+			}
+		]
+	}
+}

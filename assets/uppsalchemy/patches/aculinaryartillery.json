@@ -1,0 +1,9 @@
+[
+  {
+    "file": "aculinaryartillery:blocktypes/bottles/glassbottle.json",
+    "op": "replace",
+    "path": "/class",
+    "value": "BlockAlchemyBottle",
+    "dependsOn": [ { "modid": "aculinaryartillery" } ]
+  }
+]

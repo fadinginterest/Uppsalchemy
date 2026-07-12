@@ -1,0 +1,154 @@
+{
+	"code": "potionportion-shelteredexploration",
+	"class": "ItemLiquidPortion",
+	"matterState": "liquid",
+	"variantgroups": [
+		{
+			"code": "tier",
+			"states": [
+				"tier1",
+				"tier2",
+				"tier3"
+			]
+		}
+	],
+	"attributes": {
+		"waterTightContainerProps": {
+			"containable": true,
+			"itemsPerLitre": 100,
+			"texture": {
+				"base": "uppsalchemy:item/resource/darkteal"
+			},
+			"allowSpill": false,
+			"whenSpilled": {
+				"action": "DropContents",
+				"stack": {
+					"type": "item",
+					"code": "uppsalchemy:potionportion-shelteredexploration-{tier}"
+				}
+			},
+			"nutritionPropsPerLitre": {
+				"satiety": 0,
+				"health": 0,
+				"foodcategory": "NoNutrition"
+			}
+		},
+		"handbook": {
+			"groupBy": [
+				"potionportion-shelteredexploration-*"
+			],
+			"ignoreCreativeInvStacks": true,
+			"extraSections": [
+				{
+					"title": "uppsalchemy:item-handbooktitle-potionportion-shelteredexploration",
+					"text": "uppsalchemy:item-handbooktext-potionportion-shelteredexploration"
+				}
+			]
+		}
+	},
+	"attributesByType": {
+		"*-tier1": {
+			"alchemyEffect": {
+				"kind": "shelteredexploration",
+				"durationSeconds": 120,
+				"magnitude": 0,
+				"configKey": "ShelteredExploration"
+			}
+		},
+		"*-tier2": {
+			"alchemyEffect": {
+				"kind": "shelteredexploration",
+				"durationSeconds": 300,
+				"magnitude": 0,
+				"configKey": "ShelteredExploration"
+			}
+		},
+		"*-tier3": {
+			"alchemyEffect": {
+				"kind": "shelteredexploration",
+				"durationSeconds": 600,
+				"magnitude": 0,
+				"configKey": "ShelteredExploration"
+			}
+		}
+	},
+	"transitionablePropsByType": {
+		"*-tier1": [{
+			"type": "Perish",
+			"freshHours": { "avg": 720 },
+			"transitionHours": { "avg": 1 },
+			"transitionedStack": { "type": "item", "code": "uppsalchemy:potionportion-expired" },
+			"transitionRatio": 1
+		}],
+		"*-tier2": [{
+			"type": "Perish",
+			"freshHours": { "avg": 2160 },
+			"transitionHours": { "avg": 1 },
+			"transitionedStack": { "type": "item", "code": "uppsalchemy:potionportion-expired" },
+			"transitionRatio": 1
+		}],
+		"*-tier3": [{
+			"type": "Perish",
+			"freshHours": { "avg": 4380 },
+			"transitionHours": { "avg": 1 },
+			"transitionedStack": { "type": "item", "code": "uppsalchemy:potionportion-expired" },
+			"transitionRatio": 1
+		}]
+	},
+	"shape": {
+		"base": "game:item/liquid"
+	},
+	"texture": {
+		"base": "uppsalchemy:item/resource/darkteal"
+	},
+	"creativeinventoryStacks": [
+		{
+			"tabs": [
+				"general",
+				"uppsalchemy"
+			],
+			"stacks": [
+				{
+					"type": "block",
+					"code": "aculinaryartillery:bottle-glass-quartz-fired",
+					"attributes": {
+						"ucontents": [
+							{
+								"type": "item",
+								"code": "uppsalchemy:potionportion-shelteredexploration-{tier}",
+								"makefull": true
+							}
+						]
+					}
+				}
+			]
+		}
+	],
+	"maxstacksize": 5000,
+	"materialDensity": 1000,
+	"guiTransform": {
+		"translation": {
+			"x": 0,
+			"y": 1,
+			"z": 0
+		},
+		"rotation": {
+			"x": 123,
+			"y": -33,
+			"z": -13
+		},
+		"origin": {
+			"x": 0.5,
+			"y": 0,
+			"z": 0.5
+		},
+		"scale": 1.4
+	},
+	"tpHandTransform": {
+		"translation": {
+			"x": -1.5,
+			"y": -1,
+			"z": -1.4
+		}
+	}
+}
