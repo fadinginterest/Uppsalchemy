@@ -162,27 +162,12 @@
 					},
 					{
 						"type": "item",
-						"code": "game:spiritportion-saguaro",
-						"quantity": 100
-					},
-					{
-						"type": "item",
-						"code": "game:spiritportion-pineapple",
-						"quantity": 100
-					},
-					{
-						"type": "item",
 						"code": "game:spiritportion-apple",
 						"quantity": 100
 					},
 					{
 						"type": "item",
 						"code": "game:spiritportion-cherry",
-						"quantity": 100
-					},
-					{
-						"type": "item",
-						"code": "game:spiritportion-olive",
 						"quantity": 100
 					},
 					{
@@ -207,47 +192,7 @@
 					},
 					{
 						"type": "item",
-						"code": "game:spiritportion-pomegranate",
-						"quantity": 100
-					},
-					{
-						"type": "item",
-						"code": "game:spiritportion-beautyberry",
-						"quantity": 100
-					},
-					{
-						"type": "item",
 						"code": "game:spiritportion-blackberry",
-						"quantity": 100
-					},
-					{
-						"type": "item",
-						"code": "game:spiritportion-cactusfruit",
-						"quantity": 100
-					},
-					{
-						"type": "item",
-						"code": "game:spiritportion-cloudberry",
-						"quantity": 100
-					},
-					{
-						"type": "item",
-						"code": "game:spiritportion-gooseberry",
-						"quantity": 100
-					},
-					{
-						"type": "item",
-						"code": "game:spiritportion-guava",
-						"quantity": 100
-					},
-					{
-						"type": "item",
-						"code": "game:spiritportion-kumquat",
-						"quantity": 100
-					},
-					{
-						"type": "item",
-						"code": "game:spiritportion-plumnatal",
 						"quantity": 100
 					},
 					{
