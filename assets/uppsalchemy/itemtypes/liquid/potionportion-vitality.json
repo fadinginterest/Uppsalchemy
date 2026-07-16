@@ -16,8 +16,16 @@
 		"waterTightContainerProps": {
 			"containable": true,
 			"itemsPerLitre": 100,
-			"texture": {
-				"base": "uppsalchemy:item/resource/rosepink"
+			"texturebytype": {
+				"*-tier1": {
+					"base": "uppsalchemy:item/resource/rosepink"
+				},
+				"*-tier2": {
+					"base": "uppsalchemy:item/resource/crimsonred3"
+				},
+				"*-tier3": {
+					"base": "uppsalchemy:item/resource/rosepink3"
+				}
 			},
 			"allowSpill": false,
 			"whenSpilled": {
@@ -76,33 +84,68 @@
 		}
 	},
 	"transitionablePropsByType": {
-		"*-tier1": [{
-			"type": "Perish",
-			"freshHours": { "avg": 720 },
-			"transitionHours": { "avg": 1 },
-			"transitionedStack": { "type": "item", "code": "uppsalchemy:potionportion-expired" },
-			"transitionRatio": 1
-		}],
-		"*-tier2": [{
-			"type": "Perish",
-			"freshHours": { "avg": 2160 },
-			"transitionHours": { "avg": 1 },
-			"transitionedStack": { "type": "item", "code": "uppsalchemy:potionportion-expired" },
-			"transitionRatio": 1
-		}],
-		"*-tier3": [{
-			"type": "Perish",
-			"freshHours": { "avg": 4380 },
-			"transitionHours": { "avg": 1 },
-			"transitionedStack": { "type": "item", "code": "uppsalchemy:potionportion-expired" },
-			"transitionRatio": 1
-		}]
+		"*-tier1": [
+			{
+				"type": "Perish",
+				"freshHours": {
+					"avg": 720
+				},
+				"transitionHours": {
+					"avg": 1
+				},
+				"transitionedStack": {
+					"type": "item",
+					"code": "uppsalchemy:potionportion-expired"
+				},
+				"transitionRatio": 1
+			}
+		],
+		"*-tier2": [
+			{
+				"type": "Perish",
+				"freshHours": {
+					"avg": 2160
+				},
+				"transitionHours": {
+					"avg": 1
+				},
+				"transitionedStack": {
+					"type": "item",
+					"code": "uppsalchemy:potionportion-expired"
+				},
+				"transitionRatio": 1
+			}
+		],
+		"*-tier3": [
+			{
+				"type": "Perish",
+				"freshHours": {
+					"avg": 4380
+				},
+				"transitionHours": {
+					"avg": 1
+				},
+				"transitionedStack": {
+					"type": "item",
+					"code": "uppsalchemy:potionportion-expired"
+				},
+				"transitionRatio": 1
+			}
+		]
 	},
 	"shape": {
 		"base": "game:item/liquid"
 	},
-	"texture": {
-		"base": "uppsalchemy:item/resource/rosepink"
+	"texturebytype": {
+		"*-tier1": {
+			"base": "uppsalchemy:item/resource/rosepink"
+		},
+		"*-tier2": {
+			"base": "uppsalchemy:item/resource/crimsonred3"
+		},
+		"*-tier3": {
+			"base": "uppsalchemy:item/resource/rosepink3"
+		}
 	},
 	"creativeinventoryStacks": [
 		{

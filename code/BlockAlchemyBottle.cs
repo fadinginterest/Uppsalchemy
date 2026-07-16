@@ -15,6 +15,11 @@ namespace Uppsalchemy
         const string EffectTotalSecondsAttribute = "uppsalchemyEffectTotalSeconds";
         public const int TickIntervalMs = 200;
 
+        // Minimum liquid quantity required to get a dose's worth of effect, assuming
+        // the standard "itemsPerLitre: 100" convention used across every potion in this
+        // mod. 25 = 0.25 litres. A bottle with less than this remaining still pours/drinks
+        // normally via the base class, it just grants no alchemy effect.
+        const int MinDoseQuantity = 25;
 
         static readonly Dictionary<string, IAlchemyEffectHandler> Handlers = new Dictionary<string, IAlchemyEffectHandler>
         {
@@ -84,13 +89,13 @@ namespace Uppsalchemy
                 ItemStack contentStack = GetContent(slot.Itemstack);
                 JsonObject effect = contentStack?.Collectible?.Attributes?["alchemyEffect"];
 
-                if (effect != null && effect.Exists)
+                if (effect != null && effect.Exists && contentStack.StackSize >= MinDoseQuantity)
                 {
                     ApplyAlchemyEffect(effect, byEntity, contentStack.Collectible.Code.ToString());
                 }
             }
 
-   
+
             base.tryEatStop(secondsUsed, slot, byEntity);
         }
 
@@ -117,7 +122,7 @@ namespace Uppsalchemy
             float durationSeconds = effect["durationSeconds"].AsFloat(0);
             if (durationSeconds <= 0) return;
 
- 
+
             ClearActiveEffect(byEntity);
 
             handler.Apply(effect, byEntity);

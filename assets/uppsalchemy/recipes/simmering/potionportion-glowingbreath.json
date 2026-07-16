@@ -4,12 +4,12 @@
 			{
 				"type": "item",
 				"code": "uppsalchemy:potionportion-radiance-tier3",
-				"quantity": 10
+				"quantity": 100
 			},
 			{
 				"type": "item",
 				"code": "uppsalchemy:potionportion-aqualung-tier3",
-				"quantity": 10
+				"quantity": 100
 			}
 		],
 		"Simmering": {
@@ -20,7 +20,7 @@
 			"smeltedStack": {
 				"type": "item",
 				"code": "uppsalchemy:potionportion-unfinished-glowingbreath-tier1",
-				"quantity": 10
+				"quantity": 100
 			},
 			"requiresContainer": false
 		}
@@ -30,7 +30,7 @@
 			{
 				"type": "item",
 				"code": "uppsalchemy:potionportion-unfinished-glowingbreath-tier1",
-				"quantity": 10
+				"quantity": 100
 			},
 			{
 				"type": "item",
@@ -46,7 +46,7 @@
 			"smeltedStack": {
 				"type": "item",
 				"code": "uppsalchemy:potionportion-unfinished-glowingbreath-tier2",
-				"quantity": 10
+				"quantity": 100
 			},
 			"requiresContainer": false
 		}
@@ -56,7 +56,7 @@
 			{
 				"type": "item",
 				"code": "uppsalchemy:potionportion-unfinished-glowingbreath-tier2cured",
-				"quantity": 10
+				"quantity": 100
 			},
 			{
 				"type": "item",
@@ -72,7 +72,7 @@
 			"smeltedStack": {
 				"type": "item",
 				"code": "uppsalchemy:potionportion-unfinished-glowingbreath-tier3",
-				"quantity": 10
+				"quantity": 100
 			},
 			"requiresContainer": false
 		}
@@ -82,7 +82,7 @@
 			{
 				"type": "item",
 				"code": "uppsalchemy:potionportion-unfinished-glowingbreath-tier1",
-				"quantity": 10
+				"quantity": 100
 			},
 			{
 				"type": "item",
@@ -98,7 +98,7 @@
 			"smeltedStack": {
 				"type": "item",
 				"code": "uppsalchemy:potionportion-glowingbreath-tier1",
-				"quantity": 10
+				"quantity": 100
 			},
 			"requiresContainer": false
 		}
@@ -108,7 +108,7 @@
 			{
 				"type": "item",
 				"code": "uppsalchemy:potionportion-unfinished-glowingbreath-tier2",
-				"quantity": 10
+				"quantity": 100
 			},
 			{
 				"type": "item",
@@ -124,7 +124,7 @@
 			"smeltedStack": {
 				"type": "item",
 				"code": "uppsalchemy:potionportion-glowingbreath-tier2",
-				"quantity": 10
+				"quantity": 100
 			},
 			"requiresContainer": false
 		}
@@ -134,7 +134,7 @@
 			{
 				"type": "item",
 				"code": "uppsalchemy:potionportion-unfinished-glowingbreath-tier3",
-				"quantity": 10
+				"quantity": 100
 			},
 			{
 				"type": "item",
@@ -150,7 +150,7 @@
 			"smeltedStack": {
 				"type": "item",
 				"code": "uppsalchemy:potionportion-glowingbreath-tier3",
-				"quantity": 10
+				"quantity": 100
 			},
 			"requiresContainer": false
 		}

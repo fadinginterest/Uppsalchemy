@@ -4,17 +4,17 @@
 			{
 				"type": "item",
 				"code": "uppsalchemy:potionportion-durability-tier3",
-				"quantity": 10
+				"quantity": 100
 			},
 			{
 				"type": "item",
 				"code": "uppsalchemy:potionportion-encumbrance-tier3",
-				"quantity": 10
+				"quantity": 100
 			},
 			{
 				"type": "item",
 				"code": "uppsalchemy:potionportion-vitality-tier3",
-				"quantity": 10
+				"quantity": 100
 			}
 		],
 		"Simmering": {
@@ -25,7 +25,7 @@
 			"smeltedStack": {
 				"type": "item",
 				"code": "uppsalchemy:potionportion-unfinished-welcomepunishment-tier1",
-				"quantity": 10
+				"quantity": 100
 			},
 			"requiresContainer": false
 		}
@@ -35,7 +35,7 @@
 			{
 				"type": "item",
 				"code": "uppsalchemy:potionportion-unfinished-welcomepunishment-tier1",
-				"quantity": 10
+				"quantity": 100
 			},
 			{
 				"type": "item",
@@ -61,7 +61,7 @@
 			"smeltedStack": {
 				"type": "item",
 				"code": "uppsalchemy:potionportion-unfinished-welcomepunishment-tier2",
-				"quantity": 10
+				"quantity": 100
 			},
 			"requiresContainer": false
 		}
@@ -71,7 +71,7 @@
 			{
 				"type": "item",
 				"code": "uppsalchemy:potionportion-unfinished-welcomepunishment-tier2cured",
-				"quantity": 10
+				"quantity": 100
 			},
 			{
 				"type": "item",
@@ -97,7 +97,7 @@
 			"smeltedStack": {
 				"type": "item",
 				"code": "uppsalchemy:potionportion-unfinished-welcomepunishment-tier3",
-				"quantity": 10
+				"quantity": 100
 			},
 			"requiresContainer": false
 		}
@@ -107,7 +107,7 @@
 			{
 				"type": "item",
 				"code": "uppsalchemy:potionportion-unfinished-welcomepunishment-tier1",
-				"quantity": 10
+				"quantity": 100
 			},
 			{
 				"type": "item",
@@ -123,7 +123,7 @@
 			"smeltedStack": {
 				"type": "item",
 				"code": "uppsalchemy:potionportion-welcomepunishment-tier1",
-				"quantity": 10
+				"quantity": 100
 			},
 			"requiresContainer": false
 		}
@@ -133,7 +133,7 @@
 			{
 				"type": "item",
 				"code": "uppsalchemy:potionportion-unfinished-welcomepunishment-tier2",
-				"quantity": 10
+				"quantity": 100
 			},
 			{
 				"type": "item",
@@ -149,7 +149,7 @@
 			"smeltedStack": {
 				"type": "item",
 				"code": "uppsalchemy:potionportion-welcomepunishment-tier2",
-				"quantity": 10
+				"quantity": 100
 			},
 			"requiresContainer": false
 		}
@@ -159,7 +159,7 @@
 			{
 				"type": "item",
 				"code": "uppsalchemy:potionportion-unfinished-welcomepunishment-tier3",
-				"quantity": 10
+				"quantity": 100
 			},
 			{
 				"type": "item",
@@ -175,7 +175,7 @@
 			"smeltedStack": {
 				"type": "item",
 				"code": "uppsalchemy:potionportion-welcomepunishment-tier3",
-				"quantity": 10
+				"quantity": 100
 			},
 			"requiresContainer": false
 		}

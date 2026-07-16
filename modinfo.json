@@ -4,7 +4,7 @@
   "name": "Uppsalchemy",
   "description": "Some alchemical entertainment using the bottles and equipment from A Culinary Artillery.",
   "authors": [ "Dweomer" ],
-  "version": "1.2.1",
+  "version": "1.2.3",
   "dependencies": {
     "game": "1.22.0",
     "aculinaryartillery": "2.0.0-dev.21"

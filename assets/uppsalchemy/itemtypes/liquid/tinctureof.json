@@ -24,7 +24,7 @@
 				"olivine",
 				"activatedcopper",
 				"gold",
-				"nickel",
+				"tinbronze",
 				"zinc",
 				"bismuth",
 				"silver",
@@ -95,8 +95,8 @@
 				"*-ironzinc": {
 					"base": "uppsalchemy:item/resource/coralpink"
 				},
-				"*-nickel": {
-					"base": "uppsalchemy:item/resource/indigoblue"
+				"*-tinbronze": {
+					"base": "uppsalchemy:item/resource/yellowgreen"
 				},
 				"*-olivine": {
 					"base": "uppsalchemy:item/resource/limegreen"
@@ -205,8 +205,8 @@
 		"*-ironzinc": {
 			"base": "uppsalchemy:item/resource/coralpink"
 		},
-		"*-nickel": {
-			"base": "uppsalchemy:item/resource/indigoblue"
+		"*-tinbronze": {
+			"base": "uppsalchemy:item/resource/yellowgreen"
 		},
 		"*-olivine": {
 			"base": "uppsalchemy:item/resource/limegreen"

@@ -616,7 +616,7 @@
 				"inputs": [
 					{
 						"type": "item",
-						"code": "game:metalbit-nickel",
+						"code": "game:metalbit-tinbronze",
 						"quantity": 1
 					}
 				]
@@ -624,7 +624,7 @@
 		],
 		"output": {
 			"type": "item",
-			"code": "uppsalchemy:tinctureof-nickel",
+			"code": "uppsalchemy:tinctureof-tinbronze",
 			"stackSize": 100
 		}
 	},

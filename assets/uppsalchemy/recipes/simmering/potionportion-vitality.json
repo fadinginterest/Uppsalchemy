@@ -4,7 +4,7 @@
 			{
 				"type": "item",
 				"code": "uppsalchemy:potionportion-base-aged",
-				"quantity": 10
+				"quantity": 100
 			},
 			{
 				"type": "block",
@@ -25,7 +25,7 @@
 			"smeltedStack": {
 				"type": "item",
 				"code": "uppsalchemy:potionportion-unfinished-vitality-tier1",
-				"quantity": 10
+				"quantity": 100
 			},
 			"requiresContainer": false
 		}
@@ -35,7 +35,7 @@
 			{
 				"type": "item",
 				"code": "uppsalchemy:potionportion-unfinished-vitality-tier1",
-				"quantity": 10
+				"quantity": 100
 			},
 			{
 				"type": "item",
@@ -51,7 +51,7 @@
 			"smeltedStack": {
 				"type": "item",
 				"code": "uppsalchemy:potionportion-unfinished-vitality-tier2",
-				"quantity": 10
+				"quantity": 100
 			},
 			"requiresContainer": false
 		}
@@ -61,7 +61,7 @@
 			{
 				"type": "item",
 				"code": "uppsalchemy:potionportion-unfinished-vitality-tier2cured",
-				"quantity": 10
+				"quantity": 100
 			},
 			{
 				"type": "item",
@@ -77,7 +77,7 @@
 			"smeltedStack": {
 				"type": "item",
 				"code": "uppsalchemy:potionportion-unfinished-vitality-tier3",
-				"quantity": 10
+				"quantity": 100
 			},
 			"requiresContainer": false
 		}
@@ -87,7 +87,7 @@
 			{
 				"type": "item",
 				"code": "uppsalchemy:potionportion-unfinished-vitality-tier1",
-				"quantity": 10
+				"quantity": 100
 			},
 			{
 				"type": "item",
@@ -103,7 +103,7 @@
 			"smeltedStack": {
 				"type": "item",
 				"code": "uppsalchemy:potionportion-vitality-tier1",
-				"quantity": 10
+				"quantity": 100
 			},
 			"requiresContainer": false
 		}
@@ -113,7 +113,7 @@
 			{
 				"type": "item",
 				"code": "uppsalchemy:potionportion-unfinished-vitality-tier2",
-				"quantity": 10
+				"quantity": 100
 			},
 			{
 				"type": "item",
@@ -129,7 +129,7 @@
 			"smeltedStack": {
 				"type": "item",
 				"code": "uppsalchemy:potionportion-vitality-tier2",
-				"quantity": 10
+				"quantity": 100
 			},
 			"requiresContainer": false
 		}
@@ -139,7 +139,7 @@
 			{
 				"type": "item",
 				"code": "uppsalchemy:potionportion-unfinished-vitality-tier3",
-				"quantity": 10
+				"quantity": 100
 			},
 			{
 				"type": "item",
@@ -155,7 +155,7 @@
 			"smeltedStack": {
 				"type": "item",
 				"code": "uppsalchemy:potionportion-vitality-tier3",
-				"quantity": 10
+				"quantity": 100
 			},
 			"requiresContainer": false
 		}
